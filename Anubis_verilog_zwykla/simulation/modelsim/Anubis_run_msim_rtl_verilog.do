@@ -5,5 +5,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v}
 
