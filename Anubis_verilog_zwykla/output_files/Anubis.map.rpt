@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Anubis
-Tue Jan 08 12:54:04 2019
+Tue Jan 08 22:21:47 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -43,14 +43,14 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Jan 08 12:54:04 2019       ;
+; Analysis & Synthesis Status     ; Successful - Tue Jan 08 22:21:47 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; Anubis                                      ;
-; Top-level Entity Name           ; Multiplication                              ;
+; Top-level Entity Name           ; Omega                                       ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 64                                          ;
+; Total pins                      ; 256                                         ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -69,7 +69,7 @@ agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA6U23C6       ;                    ;
-; Top-level entity name                                                           ; Multiplication     ; Anubis             ;
+; Top-level entity name                                                           ; Omega              ; Anubis             ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
@@ -171,44 +171,44 @@ agreement for further details.
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
-; Multiplication.v                 ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v ;         ;
+; Omega.v                          ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v ;         ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                     ;
-+---------------------------------------------+-------------------+
-; Resource                                    ; Usage             ;
-+---------------------------------------------+-------------------+
-; Estimate of Logic utilization (ALMs needed) ; 25                ;
-;                                             ;                   ;
-; Combinational ALUT usage for logic          ; 49                ;
-;     -- 7 input functions                    ; 0                 ;
-;     -- 6 input functions                    ; 0                 ;
-;     -- 5 input functions                    ; 27                ;
-;     -- 4 input functions                    ; 18                ;
-;     -- <=3 input functions                  ; 4                 ;
-;                                             ;                   ;
-; Dedicated logic registers                   ; 0                 ;
-;                                             ;                   ;
-; I/O pins                                    ; 64                ;
-;                                             ;                   ;
-; Total DSP Blocks                            ; 0                 ;
-;                                             ;                   ;
-; Maximum fan-out node                        ; data_in[15]~input ;
-; Maximum fan-out                             ; 11                ;
-; Total fan-out                               ; 315               ;
-; Average fan-out                             ; 1.78              ;
-+---------------------------------------------+-------------------+
++----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                    ;
++---------------------------------------------+------------------+
+; Resource                                    ; Usage            ;
++---------------------------------------------+------------------+
+; Estimate of Logic utilization (ALMs needed) ; 126              ;
+;                                             ;                  ;
+; Combinational ALUT usage for logic          ; 222              ;
+;     -- 7 input functions                    ; 0                ;
+;     -- 6 input functions                    ; 29               ;
+;     -- 5 input functions                    ; 59               ;
+;     -- 4 input functions                    ; 96               ;
+;     -- <=3 input functions                  ; 38               ;
+;                                             ;                  ;
+; Dedicated logic registers                   ; 0                ;
+;                                             ;                  ;
+; I/O pins                                    ; 256              ;
+;                                             ;                  ;
+; Total DSP Blocks                            ; 0                ;
+;                                             ;                  ;
+; Maximum fan-out node                        ; data_in[5]~input ;
+; Maximum fan-out                             ; 15               ;
+; Total fan-out                               ; 1349             ;
+; Average fan-out                             ; 1.84             ;
++---------------------------------------------+------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                       ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name    ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
-; |Multiplication            ; 49 (49)             ; 0 (0)                     ; 0                 ; 0          ; 64   ; 0            ; |Multiplication     ; Multiplication ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+----------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |Omega                     ; 222 (222)           ; 0 (0)                     ; 0                 ; 0          ; 256  ; 0            ; |Omega              ; Omega       ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -232,15 +232,17 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 49                          ;
-;     normal            ; 49                          ;
-;         3 data inputs ; 4                           ;
-;         4 data inputs ; 18                          ;
-;         5 data inputs ; 27                          ;
-; boundary_port         ; 64                          ;
+; arriav_lcell_comb     ; 222                         ;
+;     normal            ; 222                         ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 36                          ;
+;         4 data inputs ; 96                          ;
+;         5 data inputs ; 59                          ;
+;         6 data inputs ; 29                          ;
+; boundary_port         ; 256                         ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
-; Average LUT depth     ; 1.80                        ;
+; Average LUT depth     ; 1.86                        ;
 +-----------------------+-----------------------------+
 
 
@@ -249,7 +251,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -259,37 +261,41 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Tue Jan 08 12:53:50 2019
+    Info: Processing started: Tue Jan 08 22:21:33 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Anubis -c Anubis
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file theta.v
-    Info (12023): Found entity 1: Theta File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v Line: 3
+    Info (12023): Found entity 1: Theta File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file tau.v
-    Info (12023): Found entity 1: Tau File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v Line: 3
+    Info (12023): Found entity 1: Tau File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file sbox.v
-    Info (12023): Found entity 1: Sbox File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v Line: 3
+    Info (12023): Found entity 1: Sbox File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file pi.v
-    Info (12023): Found entity 1: Pi File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v Line: 3
+    Info (12023): Found entity 1: Pi File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file multiplication_tb.v
-    Info (12023): Found entity 1: multiplication_tb File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v Line: 2
+    Info (12023): Found entity 1: multiplication_tb File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file multiplication.v
-    Info (12023): Found entity 1: Multiplication File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v Line: 3
+    Info (12023): Found entity 1: Multiplication File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file gamma.v
-    Info (12023): Found entity 1: Gamma File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v Line: 3
+    Info (12023): Found entity 1: Gamma File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Gamma.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file add_round_key.v
-    Info (12023): Found entity 1: Add_Round_Key File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v Line: 3
-Info (12127): Elaborating entity "Multiplication" for the top level hierarchy
+    Info (12023): Found entity 1: Add_Round_Key File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file omega.v
+    Info (12023): Found entity 1: Omega File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file omega_tb.v
+    Info (12023): Found entity 1: Omega_tb File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v Line: 2
+Info (12127): Elaborating entity "Omega" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 113 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 32 input pins
-    Info (21059): Implemented 32 output pins
-    Info (21061): Implemented 49 logic cells
+Info (21057): Implemented 478 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 128 input pins
+    Info (21059): Implemented 128 output pins
+    Info (21061): Implemented 222 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4836 megabytes
-    Info: Processing ended: Tue Jan 08 12:54:04 2019
+    Info: Peak virtual memory: 4833 megabytes
+    Info: Processing ended: Tue Jan 08 22:21:47 2019
     Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:32
 

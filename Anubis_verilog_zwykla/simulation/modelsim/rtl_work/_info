@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim
 vAdd_Round_Key
-Z1 !s110 1546948936
+Z1 !s110 1546982115
 !i10b 1
 !s100 oS=Xh3eO[h<W7XV2[l>S^3
 IQ]L0e_o^IMQ]NBHdTSaBM3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1546948936.000000
+Z4 !s108 1546982115.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v|
 !i113 1
@@ -53,13 +53,13 @@ R5
 R6
 n@gamma
 vMultiplication
-R1
+Z7 !s110 1546982116
 !i10b 1
-!s100 NAVLa[AZkb8:=k4c@GX9l1
-I`LgLCY`5YH>ZK0oQX::nl3
+!s100 3N3Uo[`eD_@Joo;Em0N]b3
+IHk8eZ1Cd?PR_k:OO@ATAW2
 R2
 R0
-w1546946475
+w1546974341
 8C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
 FC:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
 L0 3
@@ -67,7 +67,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z8 !s108 1546982116.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v|
 !i113 1
@@ -75,7 +75,7 @@ R5
 R6
 n@multiplication
 vmultiplication_tb
-R1
+R7
 !i10b 1
 !s100 >oM7@QzV]N6Y[gfjVbVCi3
 Ig7cAlS:eBTz<C3CF1Lb^A2
@@ -89,14 +89,58 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v|
 !i113 1
 R5
 R6
+vOmega
+!s110 1546982545
+!i10b 1
+!s100 7dAWHCWhNfolP[:X`7GgY3
+IXe3ZjRZ@U[E;Z25k<bLS?1
+R2
+R0
+w1546982492
+8C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v
+FC:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1546982545.000000
+!s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v|
+!i113 1
+R5
+R6
+n@omega
+vOmega_tb
+!s110 1546982854
+!i10b 1
+!s100 <Y6[QL1J48BCB4jiMOP9G3
+I^YP7Ta>`>;X05;ZB_A=@Y3
+R2
+R0
+w1546982840
+8C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+FC:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1546982854.000000
+!s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v|
+!i113 1
+R5
+R6
+n@omega_tb
 vPi
-R1
+R7
 !i10b 1
 !s100 b>_OF4g6HJ<Z:gkm;N]Pc1
 In]2l9496>VFQULS<i2BRz1
@@ -110,15 +154,15 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v|
+!s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v|
 !i113 1
 R5
 R6
 n@pi
 vSbox
-R1
+R7
 !i10b 1
 !s100 28>Y=TF^;e^b?gNZZ82081
 Ih_FNOGS5DG4d>SUA3R`J83
@@ -132,15 +176,15 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v|
+!s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v|
 !i113 1
 R5
 R6
 n@sbox
 vTau
-Z7 !s110 1546948937
+R7
 !i10b 1
 !s100 VN9L_FCQZW9T[597k2mUh3
 IAP[Z[XP5TE0cGfB5k@i5m2
@@ -154,9 +198,9 @@ R3
 r1
 !s85 0
 31
-R4
+R8
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v|
+!s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v|
 !i113 1
 R5
 R6
@@ -176,9 +220,9 @@ R3
 r1
 !s85 0
 31
-!s108 1546948937.000000
+R8
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v|
+!s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v|
 !i113 1
 R5
 R6

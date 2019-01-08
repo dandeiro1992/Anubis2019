@@ -14,7 +14,7 @@
     <ClInclude Include="nessie.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="anubis.c" />
+    <ClCompile Include="anubis.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{134748E8-139B-432B-81C0-18937F41D46A}</ProjectGuid>

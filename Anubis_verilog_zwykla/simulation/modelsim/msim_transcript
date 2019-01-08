@@ -12,116 +12,248 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:01 on Jan 08,2019
+# Start time: 22:15:04 on Jan 08,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
 # -- Compiling module Multiplication
 # 
 # Top level modules:
 # 	Multiplication
-# End time: 13:02:01 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:04 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
+# Start time: 22:15:15 on Jan 08,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v 
 # -- Compiling module Add_Round_Key
 # 
 # Top level modules:
 # 	Add_Round_Key
-# End time: 13:02:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Gamma.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
+# Start time: 22:15:15 on Jan 08,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Gamma.v 
 # -- Compiling module Gamma
 # 
 # Top level modules:
 # 	Gamma
-# End time: 13:02:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:15 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
+# Start time: 22:15:16 on Jan 08,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
 # -- Compiling module Multiplication
 # 
 # Top level modules:
 # 	Multiplication
-# End time: 13:02:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
+# Start time: 22:15:16 on Jan 08,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v 
 # -- Compiling module multiplication_tb
 # 
 # Top level modules:
 # 	multiplication_tb
-# End time: 13:02:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v 
+# Start time: 22:15:16 on Jan 08,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:15:16 on Jan 08,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:15:16 on Jan 08,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v 
 # -- Compiling module Pi
 # 
 # Top level modules:
 # 	Pi
-# End time: 13:02:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v 
+# Start time: 22:15:16 on Jan 08,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v 
 # -- Compiling module Sbox
 # 
 # Top level modules:
 # 	Sbox
-# End time: 13:02:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:16 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v 
+# Start time: 22:15:16 on Jan 08,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v 
 # -- Compiling module Tau
 # 
 # Top level modules:
 # 	Tau
-# End time: 13:02:17 on Jan 08,2019, Elapsed time: 0:00:01
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:02:17 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v 
+# Start time: 22:15:16 on Jan 08,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v 
 # -- Compiling module Theta
 # 
 # Top level modules:
 # 	Theta
-# End time: 13:02:17 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.multiplication_tb
-# vsim work.multiplication_tb 
-# Start time: 13:02:20 on Jan 08,2019
-# Loading work.multiplication_tb
+vsim work.Omega_tb
+# vsim work.Omega_tb 
+# Start time: 22:15:22 on Jan 08,2019
+# Loading work.Omega_tb
 # Loading work.Multiplication
-add wave -position end  sim:/multiplication_tb/wyjscie
-add wave -position end  sim:/multiplication_tb/wejscie
-add wave -position end  sim:/multiplication_tb/m/factor_3_3
-add wave -position end  sim:/multiplication_tb/m/factor_3_2
-add wave -position end  sim:/multiplication_tb/m/factor_3_1
-add wave -position end  sim:/multiplication_tb/m/factor_3_0
-add wave -position end  sim:/multiplication_tb/m/factor_2_3
-add wave -position end  sim:/multiplication_tb/m/factor_2_2
-add wave -position end  sim:/multiplication_tb/m/factor_2_1
-add wave -position end  sim:/multiplication_tb/m/factor_2_0
-add wave -position end  sim:/multiplication_tb/m/factor_1_3
-add wave -position end  sim:/multiplication_tb/m/factor_1_2
-add wave -position end  sim:/multiplication_tb/m/factor_1_1
-add wave -position end  sim:/multiplication_tb/m/factor_1_0
-add wave -position end  sim:/multiplication_tb/m/factor_0_3
-add wave -position end  sim:/multiplication_tb/m/factor_0_2
-add wave -position end  sim:/multiplication_tb/m/factor_0_1
-add wave -position end  sim:/multiplication_tb/m/factor_0_0
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+add wave -position end  sim:/Omega_tb/wyjscie
+add wave -position end  sim:/Omega_tb/wejscie
 run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+run
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:22:25 on Jan 08,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 22:22:25 on Jan 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:22:27 on Jan 08,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 22:22:28 on Jan 08,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.Omega_tb
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+run
+# Error opening C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim/[PCDPC] - Port size (32) does not match connection size 
+# Path name 'C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim/[PCDPC] - Port size (32) does not match connection size ' doesn't exist.
+vsim work.Omega_tb
+# End time: 22:25:11 on Jan 08,2019, Elapsed time: 0:09:49
+# Errors: 1, Warnings: 6
+# vsim work.Omega_tb 
+# Start time: 22:25:11 on Jan 08,2019
+# Loading work.Omega_tb
+# Loading work.Multiplication
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+add wave -position end  sim:/Omega_tb/wyjscie
+add wave -position end  sim:/Omega_tb/wejscie
+run
+add wave -position end  sim:/Omega_tb/m/factor_3_3
+add wave -position end  sim:/Omega_tb/m/factor_3_2
+add wave -position end  sim:/Omega_tb/m/factor_3_1_1
+add wave -position end  sim:/Omega_tb/m/factor_3_1
+add wave -position end  sim:/Omega_tb/m/factor_3_0_2
+add wave -position end  sim:/Omega_tb/m/factor_3_0_1
+add wave -position end  sim:/Omega_tb/m/factor_3_0
+add wave -position end  sim:/Omega_tb/m/factor_2_3
+add wave -position end  sim:/Omega_tb/m/factor_2_2
+add wave -position end  sim:/Omega_tb/m/factor_2_1_2
+add wave -position end  sim:/Omega_tb/m/factor_2_1_1
+add wave -position end  sim:/Omega_tb/m/factor_2_1
+add wave -position end  sim:/Omega_tb/m/factor_2_0_1
+add wave -position end  sim:/Omega_tb/m/factor_2_0
+add wave -position end  sim:/Omega_tb/m/factor_1_3_1
+add wave -position end  sim:/Omega_tb/m/factor_1_3
+add wave -position end  sim:/Omega_tb/m/factor_1_2_2
+add wave -position end  sim:/Omega_tb/m/factor_1_2_1
+add wave -position end  sim:/Omega_tb/m/factor_1_2
+add wave -position end  sim:/Omega_tb/m/factor_1_1
+add wave -position end  sim:/Omega_tb/m/factor_1_0
+add wave -position end  sim:/Omega_tb/m/factor_0_3_2
+add wave -position end  sim:/Omega_tb/m/factor_0_3_1
+add wave -position end  sim:/Omega_tb/m/factor_0_3
+add wave -position end  sim:/Omega_tb/m/factor_0_2_1
+add wave -position end  sim:/Omega_tb/m/factor_0_2
+add wave -position end  sim:/Omega_tb/m/factor_0_1
+add wave -position end  sim:/Omega_tb/m/factor_0_0
+add wave -position end  sim:/Omega_tb/m/data_out
+add wave -position end  sim:/Omega_tb/m/data_in
+add wave -position end  sim:/Omega_tb/m/byte_3
+add wave -position end  sim:/Omega_tb/m/byte_2
+add wave -position end  sim:/Omega_tb/m/byte_1
+add wave -position end  sim:/Omega_tb/m/byte_0
+restart
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+run
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:27:34 on Jan 08,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 22:27:34 on Jan 08,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Omega_tb
+# End time: 22:27:41 on Jan 08,2019, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 4
+# vsim work.Omega_tb 
+# Start time: 22:27:41 on Jan 08,2019
+# Loading work.Omega_tb
+# Loading work.Omega
+add wave -position end  sim:/Omega_tb/wyjscie
+add wave -position end  sim:/Omega_tb/wejscie
+run
+# End time: 22:37:27 on Jan 08,2019, Elapsed time: 0:09:46
+# Errors: 0, Warnings: 0

@@ -20,7 +20,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="anubis.c">
+    <ClCompile Include="anubis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

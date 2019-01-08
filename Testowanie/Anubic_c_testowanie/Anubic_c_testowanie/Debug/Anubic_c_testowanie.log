@@ -1,2 +1,6 @@
-﻿  anubis.c
-  Anubic_c_testowanie.vcxproj -> C:\Users\Damian\Documents\GitHub\Anubis\Testowanie\Anubic_c_testowanie\Debug\Anubic_c_testowanie.exe
+﻿  anubis.cpp
+c:\users\damian\documents\github\anubis2019\testowanie\anubic_c_testowanie\anubic_c_testowanie\anubis.cpp(772): error C2015: too many characters in constant
+c:\users\damian\documents\github\anubis2019\testowanie\anubic_c_testowanie\anubic_c_testowanie\anubis.cpp(772): error C2440: 'initializing' : cannot convert from 'int' to 'unsigned char [128]'
+          There are no conversions to array types, although there are conversions to references or pointers to arrays
+c:\users\damian\documents\github\anubis2019\testowanie\anubic_c_testowanie\anubic_c_testowanie\anubis.cpp(774): error C2369: 'key' : redefinition; different subscripts
+          c:\users\damian\documents\github\anubis2019\testowanie\anubic_c_testowanie\anubic_c_testowanie\anubis.cpp(772) : see declaration of 'key'

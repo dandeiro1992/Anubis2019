@@ -39,6 +39,7 @@
 #include <string.h>
 #include "nessie.h"
 
+using namespace std;
 /*
 * Though Anubis is endianness-neutral, the encryption tables are listed
 * in BIG-ENDIAN format, which is adopted throughout this implementation
@@ -768,7 +769,17 @@ mbs,
 int main()
 {
 	printf("Hello, World!");
+	unsigned char key[128] = '0123456789012345678901234567890123456789';
+		struct NESSIEstruct a;
+		u8 key[MAX_KEYSIZEB], block[BLOCKSIZEB];
+		memset(key, 0, MAX_KEYSIZEB);
+		memset(block, 0, BLOCKSIZEB);
+		int keyBits = 1234;
+		a.keyBits = keyBits;
+		printf("%d-bit keys...", keyBits);
+			NESSIEkeysetup(key, &a);
+			printf("%d", key[1]);
 	return 0;
 
-	system("pause");
+	getchar();
 }
