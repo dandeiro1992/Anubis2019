@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
-module multiplication_tb;
-   reg [31:0] wejscie;
-   wire [31:0] wyjscie; 
+module Multiplication_tb;
+   reg [127:0] wejscie;
+   wire [127:0] wyjscie; 
 
-Multiplication m (.data_out(wyjscie),.data_in(wejscie));    
+Multiplication multiplication (.data_out(wyjscie),.data_in(wejscie));    
 
 
 initial 

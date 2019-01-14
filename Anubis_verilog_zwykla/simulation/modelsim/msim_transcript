@@ -10,250 +10,610 @@
 # Copying D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:04 on Jan 08,2019
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
-# -- Compiling module Multiplication
+# Start time: 16:52:21 on Jan 14,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla" C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v 
+# -- Compiling module Omega
 # 
 # Top level modules:
-# 	Multiplication
-# End time: 22:15:04 on Jan 08,2019, Elapsed time: 0:00:00
+# 	Omega
+# End time: 16:52:21 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:15 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v 
+# Start time: 16:52:39 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v 
 # -- Compiling module Add_Round_Key
 # 
 # Top level modules:
 # 	Add_Round_Key
-# End time: 22:15:15 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:39 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:15 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Gamma.v 
+# Start time: 16:52:39 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:52:39 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:52:39 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 16:52:39 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:52:39 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v 
 # -- Compiling module Gamma
 # 
 # Top level modules:
 # 	Gamma
-# End time: 22:15:15 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:39 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
 # -- Compiling module Multiplication
 # 
 # Top level modules:
 # 	Multiplication
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v 
-# -- Compiling module multiplication_tb
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v 
+# -- Compiling module Fi_tb
 # 
 # Top level modules:
-# 	multiplication_tb
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# 	Fi_tb
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v 
 # -- Compiling module Omega
 # 
 # Top level modules:
 # 	Omega
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
 # -- Compiling module Omega_tb
 # 
 # Top level modules:
 # 	Omega_tb
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Pi.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v 
 # -- Compiling module Pi
 # 
 # Top level modules:
 # 	Pi
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Sbox.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v 
 # -- Compiling module Sbox
 # 
 # Top level modules:
 # 	Sbox
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Tau.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v 
 # -- Compiling module Tau
 # 
 # Top level modules:
 # 	Tau
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:15:16 on Jan 08,2019
-# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Theta.v 
+# Start time: 16:52:40 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v 
 # -- Compiling module Theta
 # 
 # Top level modules:
 # 	Theta
-# End time: 22:15:16 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:52:40 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.Omega_tb
-# vsim work.Omega_tb 
-# Start time: 22:15:22 on Jan 08,2019
-# Loading work.Omega_tb
-# Loading work.Multiplication
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-add wave -position end  sim:/Omega_tb/wyjscie
-add wave -position end  sim:/Omega_tb/wejscie
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-restart
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-run
-vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v
+vsim work.Fi_tb
+# vsim work.Fi_tb 
+# Start time: 16:52:53 on Jan 14,2019
+# Loading work.Fi_tb
+# ** Error: (vsim-3033) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v(6): Instantiation of 'Fi' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
+#         Searched libraries:
+#             C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 16:52:53 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:22:25 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega.v 
+# Start time: 16:53:49 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 16:53:49 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Fi_tb
+# vsim work.Fi_tb 
+# Start time: 16:53:51 on Jan 14,2019
+# Loading work.Fi_tb
+# Loading work.Multiplication
+# ** Warning: (vsim-3015) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb/multiplication File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb/multiplication File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+add wave -position end  sim:/Fi_tb/wejscie
+add wave -position end  sim:/Fi_tb/wyjscie
+run
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	--none--
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v 
 # -- Compiling module Omega
 # 
 # Top level modules:
 # 	Omega
-# End time: 22:22:25 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:22:27 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
 # -- Compiling module Omega_tb
 # 
 # Top level modules:
 # 	Omega_tb
-# End time: 22:22:28 on Jan 08,2019, Elapsed time: 0:00:01
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-restart
-# Loading work.Omega_tb
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-run
-# Error opening C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim/[PCDPC] - Port size (32) does not match connection size 
-# Path name 'C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim/[PCDPC] - Port size (32) does not match connection size ' doesn't exist.
-vsim work.Omega_tb
-# End time: 22:25:11 on Jan 08,2019, Elapsed time: 0:09:49
-# Errors: 1, Warnings: 6
-# vsim work.Omega_tb 
-# Start time: 22:25:11 on Jan 08,2019
-# Loading work.Omega_tb
-# Loading work.Multiplication
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-add wave -position end  sim:/Omega_tb/wyjscie
-add wave -position end  sim:/Omega_tb/wejscie
-run
-add wave -position end  sim:/Omega_tb/m/factor_3_3
-add wave -position end  sim:/Omega_tb/m/factor_3_2
-add wave -position end  sim:/Omega_tb/m/factor_3_1_1
-add wave -position end  sim:/Omega_tb/m/factor_3_1
-add wave -position end  sim:/Omega_tb/m/factor_3_0_2
-add wave -position end  sim:/Omega_tb/m/factor_3_0_1
-add wave -position end  sim:/Omega_tb/m/factor_3_0
-add wave -position end  sim:/Omega_tb/m/factor_2_3
-add wave -position end  sim:/Omega_tb/m/factor_2_2
-add wave -position end  sim:/Omega_tb/m/factor_2_1_2
-add wave -position end  sim:/Omega_tb/m/factor_2_1_1
-add wave -position end  sim:/Omega_tb/m/factor_2_1
-add wave -position end  sim:/Omega_tb/m/factor_2_0_1
-add wave -position end  sim:/Omega_tb/m/factor_2_0
-add wave -position end  sim:/Omega_tb/m/factor_1_3_1
-add wave -position end  sim:/Omega_tb/m/factor_1_3
-add wave -position end  sim:/Omega_tb/m/factor_1_2_2
-add wave -position end  sim:/Omega_tb/m/factor_1_2_1
-add wave -position end  sim:/Omega_tb/m/factor_1_2
-add wave -position end  sim:/Omega_tb/m/factor_1_1
-add wave -position end  sim:/Omega_tb/m/factor_1_0
-add wave -position end  sim:/Omega_tb/m/factor_0_3_2
-add wave -position end  sim:/Omega_tb/m/factor_0_3_1
-add wave -position end  sim:/Omega_tb/m/factor_0_3
-add wave -position end  sim:/Omega_tb/m/factor_0_2_1
-add wave -position end  sim:/Omega_tb/m/factor_0_2
-add wave -position end  sim:/Omega_tb/m/factor_0_1
-add wave -position end  sim:/Omega_tb/m/factor_0_0
-add wave -position end  sim:/Omega_tb/m/data_out
-add wave -position end  sim:/Omega_tb/m/data_in
-add wave -position end  sim:/Omega_tb/m/byte_3
-add wave -position end  sim:/Omega_tb/m/byte_2
-add wave -position end  sim:/Omega_tb/m/byte_1
-add wave -position end  sim:/Omega_tb/m/byte_0
-restart
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_out'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(5).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v(6): [PCDPC] - Port size (32) does not match connection size (128) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v(4).
-#    Time: 0 ps  Iteration: 0  Instance: /Omega_tb/m File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
-run
-vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:27:34 on Jan 08,2019
-# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 16:56:01 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:01 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 16:56:02 on Jan 14,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 16:56:02 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 16:56:02 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 16:56:02 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:56:02 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 16:56:02 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Fi_tb
+# End time: 16:56:19 on Jan 14,2019, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 2
+# vsim work.Fi_tb 
+# Start time: 16:56:19 on Jan 14,2019
+# Loading work.Fi_tb
+# ** Error: (vsim-3033) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v(6): Instantiation of 'Fi' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+#         Searched libraries:
+#             C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim/rtl_work
+# Error loading design
+# End time: 16:56:19 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v 
 # -- Compiling module Omega_tb
 # 
 # Top level modules:
 # 	Omega_tb
-# End time: 22:27:34 on Jan 08,2019, Elapsed time: 0:00:00
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.Omega_tb
-# End time: 22:27:41 on Jan 08,2019, Elapsed time: 0:02:30
-# Errors: 0, Warnings: 4
-# vsim work.Omega_tb 
-# Start time: 22:27:41 on Jan 08,2019
-# Loading work.Omega_tb
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 17:00:15 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:15 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 17:00:16 on Jan 14,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:16 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 17:00:16 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:00:16 on Jan 14,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 17:00:16 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Fi_tb
+# vsim work.Fi_tb 
+# Start time: 17:00:19 on Jan 14,2019
+# Loading work.Fi_tb
+# Loading work.Fi
+# Loading work.Theta
 # Loading work.Omega
-add wave -position end  sim:/Omega_tb/wyjscie
-add wave -position end  sim:/Omega_tb/wejscie
+# Loading work.Tau
+# Loading work.Multiplication
+add wave -position end  sim:/Fi_tb/wejscie
+add wave -position end  sim:/Fi_tb/wyjscie
 run
-# End time: 22:37:27 on Jan 08,2019, Elapsed time: 0:09:46
+vlog -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:25:55 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 17:25:55 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:25:57 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 17:25:57 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.Fi_tb
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Sbox
+# ** Error: (vsim-3063) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v(8): Port 'data_out' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb/fi/gamma File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+# ** Error: (vsim-3063) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v(8): Port 'data_in' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb/fi/gamma File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+vsim work.Fi_tb
+# vsim work.Fi_tb 
+# Start time: 17:00:19 on Jan 14,2019
+# Loading work.Fi_tb
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Tau
+# Loading work.Sbox
+# ** Error: (vsim-3063) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v(8): Port 'data_out' not found in the connected module (1st connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb/fi/gamma File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+# ** Error: (vsim-3063) C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v(8): Port 'data_in' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /Fi_tb/fi/gamma File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v
+# Error loading design
+# End time: 17:26:14 on Jan 14,2019, Elapsed time: 0:25:55
+# Errors: 4, Warnings: 0
+vlog -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:50 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 17:26:50 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:52 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 17:26:52 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:26:54 on Jan 14,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 17:26:54 on Jan 14,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Fi_tb
+# vsim work.Fi_tb 
+# Start time: 17:26:55 on Jan 14,2019
+# Loading work.Fi_tb
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Tau
+# Loading work.Sbox
+restart
+run
+# End time: 18:04:12 on Jan 14,2019, Elapsed time: 0:37:17
 # Errors: 0, Warnings: 0

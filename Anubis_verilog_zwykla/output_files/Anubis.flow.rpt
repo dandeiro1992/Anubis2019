@@ -1,5 +1,5 @@
 Flow report for Anubis
-Tue Jan 08 22:22:09 2019
+Mon Jan 14 18:01:45 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,17 +41,17 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Flow Failed - Tue Jan 08 22:22:09 2019      ;
+; Flow Status                     ; Successful - Mon Jan 14 18:01:45 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; Anubis                                      ;
-; Top-level Entity Name           ; Omega                                       ;
+; Top-level Entity Name           ; Key_Schedule                                ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA6U23C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 112 / 41,910 ( < 1 % )                      ;
+; Logic utilization (in ALMs)     ; 1,656 / 41,910 ( 4 % )                      ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 256 / 314 ( 82 % )                          ;
-; Total virtual pins              ; 0                                           ;
+; Total pins                      ; 0 / 314 ( 0 % )                             ;
+; Total virtual pins              ; 260                                         ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
 ; Total HSSI RX PCSs              ; 0                                           ;
@@ -68,50 +68,56 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/08/2019 22:21:33 ;
+; Start date & time ; 01/14/2019 17:59:31 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Anubis              ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                            ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 176694086997554.154698249304524        ; --            ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; Omega       ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; Omega       ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; Omega       ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; Omega                                  ; Anubis        ; --          ; --             ;
-+-------------------------------------+----------------------------------------+---------------+-------------+----------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name  ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 272883581633501.154748517104172        ; --            ; --           ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --           ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --           ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --           ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --           ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --           ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; Key_Schedule ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; Key_Schedule ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; Key_Schedule ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --           ; --             ;
+; TOP_LEVEL_ENTITY                    ; Key_Schedule                           ; Anubis        ; --           ; --             ;
++-------------------------------------+----------------------------------------+---------------+--------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4833 MB             ; 00:00:32                           ;
-; Fitter               ; 00:00:20     ; 1.0                     ; 5446 MB             ; 00:00:20                           ;
-; Total                ; 00:00:34     ; --                      ; --                  ; 00:00:52                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:23     ; 1.0                     ; 658 MB              ; 00:00:42                           ;
+; Fitter                    ; 00:01:22     ; 1.0                     ; 2084 MB             ; 00:02:37                           ;
+; Assembler                 ; 00:00:09     ; 1.0                     ; 688 MB              ; 00:00:09                           ;
+; TimeQuest Timing Analyzer ; 00:00:13     ; 1.5                     ; 968 MB              ; 00:00:19                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 609 MB              ; 00:00:03                           ;
+; Total                     ; 00:02:10     ; --                      ; --                  ; 00:03:50                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
+; EDA Netlist Writer        ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
 
 
 ------------
@@ -119,6 +125,9 @@ agreement for further details.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Anubis -c Anubis
 quartus_fit --read_settings_files=off --write_settings_files=off Anubis -c Anubis
+quartus_asm --read_settings_files=off --write_settings_files=off Anubis -c Anubis
+quartus_sta Anubis -c Anubis
+quartus_eda --read_settings_files=off --write_settings_files=off Anubis -c Anubis
 
 
 
