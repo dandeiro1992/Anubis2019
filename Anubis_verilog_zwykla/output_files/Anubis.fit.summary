@@ -1,11 +1,11 @@
-Fitter Status : Successful - Wed Jan 16 17:18:45 2019
+Fitter Status : Successful - Wed Jan 16 19:58:35 2019
 Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 Revision Name : Anubis
-Top-level Entity Name : Anubis
+Top-level Entity Name : Anubis_2
 Family : Cyclone V
 Device : 5CSEMA6U23C6
 Timing Models : Final
-Logic utilization (in ALMs) : 2,737 / 41,910 ( 7 % )
+Logic utilization (in ALMs) : 2,740 / 41,910 ( 7 % )
 Total registers : 396
 Total pins : 4 / 314 ( 1 % )
 Total virtual pins : 256

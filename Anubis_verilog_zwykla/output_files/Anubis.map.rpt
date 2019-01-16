@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Anubis
-Wed Jan 16 17:15:42 2019
+Wed Jan 16 19:54:41 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -13,12 +13,12 @@ Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. State Machine - |Anubis|nextstate
-  9. State Machine - |Anubis|state
+  8. State Machine - |Anubis_2|nextstate
+  9. State Machine - |Anubis_2|state
  10. Registers Removed During Synthesis
  11. General Register Statistics
  12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Parameter Settings for User Entity Instance: Top-level Entity: |Anubis
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |Anubis_2
  14. Port Connectivity Checks: "Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_4"
  15. Port Connectivity Checks: "Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_3"
  16. Port Connectivity Checks: "Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_2"
@@ -53,10 +53,10 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Jan 16 17:15:41 2019       ;
+; Analysis & Synthesis Status     ; Successful - Wed Jan 16 19:54:41 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; Anubis                                      ;
-; Top-level Entity Name           ; Anubis                                      ;
+; Top-level Entity Name           ; Anubis_2                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 396                                         ;
@@ -79,7 +79,7 @@ agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSEMA6U23C6       ;                    ;
-; Top-level entity name                                                           ; Anubis             ; Anubis             ;
+; Top-level entity name                                                           ; Anubis_2           ; Anubis             ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
@@ -194,7 +194,7 @@ agreement for further details.
 ; Fi.v                             ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v                  ;         ;
 ; Add_Round_Constants.v            ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Constants.v ;         ;
 ; Psi.v                            ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Psi.v                 ;         ;
-; Anubis.v                         ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v              ;         ;
+; Anubis_2.v                       ; yes             ; User Verilog HDL File  ; C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v            ;         ;
 +----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
 
 
@@ -221,92 +221,92 @@ agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
 ; Maximum fan-out                             ; 396       ;
-; Total fan-out                               ; 18255     ;
+; Total fan-out                               ; 18256     ;
 ; Average fan-out                             ; 4.92      ;
 +---------------------------------------------+-----------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                       ;
-+-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                             ; Entity Name         ; Library Name ;
-+-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+---------------------+--------------+
-; |Anubis                                   ; 3050 (564)          ; 396 (396)                 ; 0                 ; 0          ; 4    ; 256          ; |Anubis                                                                         ; Anubis              ; work         ;
-;    |Gamma:sub|                            ; 640 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub                                                               ; Gamma               ; work         ;
-;       |Sbox:sboxes[0].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[0].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[10].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[10].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[11].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[11].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[12].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[12].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[13].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[13].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[14].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[14].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[15].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[15].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[1].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[1].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[2].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[2].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[3].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[3].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[4].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[4].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[5].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[5].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[6].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[6].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[7].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[7].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[8].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[8].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[9].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Gamma:sub|Sbox:sboxes[9].s16                                            ; Sbox                ; work         ;
-;    |Key_Schedule:key_update|              ; 1846 (1)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update                                                 ; Key_Schedule        ; work         ;
-;       |Fi:fi_2|                           ; 216 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi_2                                         ; Fi                  ; work         ;
-;          |Omega:omega|                    ; 216 (216)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi_2|Omega:omega                             ; Omega               ; work         ;
-;       |Fi:fi|                             ; 774 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi                                           ; Fi                  ; work         ;
-;          |Gamma:gamma|                    ; 640 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma                               ; Gamma               ; work         ;
-;             |Sbox:sboxes[0].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[0].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[10].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[10].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[11].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[11].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[12].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[12].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[13].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[13].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[14].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[14].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[15].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[15].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[1].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[1].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[2].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[2].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[3].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[3].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[4].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[4].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[5].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[5].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[6].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[6].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[7].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[7].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[8].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[8].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[9].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[9].s16            ; Sbox                ; work         ;
-;          |Omega:omega|                    ; 134 (134)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega                               ; Omega               ; work         ;
-;       |Psi:psi|                           ; 824 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi                                         ; Psi                 ; work         ;
-;          |Add_Round_Constants:add|        ; 46 (46)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Add_Round_Constants:add                 ; Add_Round_Constants ; work         ;
-;          |Gamma:gamma|                    ; 640 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma                             ; Gamma               ; work         ;
-;             |Sbox:sboxes[0].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[0].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[10].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[10].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[11].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[11].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[12].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[12].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[13].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[13].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[14].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[14].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[15].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[15].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[1].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[1].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[2].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[2].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[3].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[3].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[4].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[4].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[5].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[5].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[6].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[6].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[7].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[7].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[8].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[8].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[9].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[9].s16          ; Sbox                ; work         ;
-;          |Theta:theta|                    ; 138 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Theta:theta                             ; Theta               ; work         ;
-;             |Multiplication:thetas[0].m4| ; 45 (45)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[0].m4 ; Multiplication      ; work         ;
-;             |Multiplication:thetas[1].m4| ; 44 (44)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[1].m4 ; Multiplication      ; work         ;
-;             |Multiplication:thetas[2].m4| ; 44 (44)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[2].m4 ; Multiplication      ; work         ;
-;             |Multiplication:thetas[3].m4| ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[3].m4 ; Multiplication      ; work         ;
-;       |Round_Constants:round_constants|   ; 31 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Round_Constants:round_constants                 ; Round_Constants     ; work         ;
-;          |Sbox:s_1|                       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_1        ; Sbox                ; work         ;
-;          |Sbox:s_2|                       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_2        ; Sbox                ; work         ;
-;          |Sbox:s_3|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_3        ; Sbox                ; work         ;
-;          |Sbox:s_4|                       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_4        ; Sbox                ; work         ;
-+-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------------------------------------------------------------+---------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                         ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                               ; Entity Name         ; Library Name ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------+---------------------+--------------+
+; |Anubis_2                                 ; 3050 (563)          ; 396 (396)                 ; 0                 ; 0          ; 4    ; 256          ; |Anubis_2                                                                         ; Anubis_2            ; work         ;
+;    |Gamma:sub|                            ; 640 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub                                                               ; Gamma               ; work         ;
+;       |Sbox:sboxes[0].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[0].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[10].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[10].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[11].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[11].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[12].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[12].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[13].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[13].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[14].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[14].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[15].s16|               ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[15].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[1].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[1].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[2].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[2].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[3].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[3].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[4].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[4].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[5].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[5].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[6].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[6].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[7].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[7].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[8].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[8].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[9].s16|                ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[9].s16                                            ; Sbox                ; work         ;
+;    |Key_Schedule:key_update|              ; 1847 (2)            ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update                                                 ; Key_Schedule        ; work         ;
+;       |Fi:fi_2|                           ; 216 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi_2                                         ; Fi                  ; work         ;
+;          |Omega:omega|                    ; 216 (216)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi_2|Omega:omega                             ; Omega               ; work         ;
+;       |Fi:fi|                             ; 774 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi                                           ; Fi                  ; work         ;
+;          |Gamma:gamma|                    ; 640 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma                               ; Gamma               ; work         ;
+;             |Sbox:sboxes[0].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[0].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[10].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[10].s16           ; Sbox                ; work         ;
+;             |Sbox:sboxes[11].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[11].s16           ; Sbox                ; work         ;
+;             |Sbox:sboxes[12].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[12].s16           ; Sbox                ; work         ;
+;             |Sbox:sboxes[13].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[13].s16           ; Sbox                ; work         ;
+;             |Sbox:sboxes[14].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[14].s16           ; Sbox                ; work         ;
+;             |Sbox:sboxes[15].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[15].s16           ; Sbox                ; work         ;
+;             |Sbox:sboxes[1].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[1].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[2].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[2].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[3].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[3].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[4].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[4].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[5].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[5].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[6].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[6].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[7].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[7].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[8].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[8].s16            ; Sbox                ; work         ;
+;             |Sbox:sboxes[9].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[9].s16            ; Sbox                ; work         ;
+;          |Omega:omega|                    ; 134 (134)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega                               ; Omega               ; work         ;
+;       |Psi:psi|                           ; 824 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi                                         ; Psi                 ; work         ;
+;          |Add_Round_Constants:add|        ; 46 (46)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Add_Round_Constants:add                 ; Add_Round_Constants ; work         ;
+;          |Gamma:gamma|                    ; 640 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma                             ; Gamma               ; work         ;
+;             |Sbox:sboxes[0].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[0].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[10].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[10].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[11].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[11].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[12].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[12].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[13].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[13].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[14].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[14].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[15].s16|         ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[15].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[1].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[1].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[2].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[2].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[3].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[3].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[4].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[4].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[5].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[5].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[6].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[6].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[7].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[7].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[8].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[8].s16          ; Sbox                ; work         ;
+;             |Sbox:sboxes[9].s16|          ; 40 (40)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[9].s16          ; Sbox                ; work         ;
+;          |Theta:theta|                    ; 138 (0)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta                             ; Theta               ; work         ;
+;             |Multiplication:thetas[0].m4| ; 45 (45)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[0].m4 ; Multiplication      ; work         ;
+;             |Multiplication:thetas[1].m4| ; 44 (44)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[1].m4 ; Multiplication      ; work         ;
+;             |Multiplication:thetas[2].m4| ; 44 (44)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[2].m4 ; Multiplication      ; work         ;
+;             |Multiplication:thetas[3].m4| ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[3].m4 ; Multiplication      ; work         ;
+;       |Round_Constants:round_constants|   ; 31 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants                 ; Round_Constants     ; work         ;
+;          |Sbox:s_1|                       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_1        ; Sbox                ; work         ;
+;          |Sbox:s_2|                       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_2        ; Sbox                ; work         ;
+;          |Sbox:s_3|                       ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_3        ; Sbox                ; work         ;
+;          |Sbox:s_4|                       ; 8 (8)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_4        ; Sbox                ; work         ;
++-------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
 Encoding Type:  One-Hot
 +---------------------------------------------------------------------------------------------------+
-; State Machine - |Anubis|nextstate                                                                 ;
+; State Machine - |Anubis_2|nextstate                                                               ;
 +---------------------+------------------+-------------------+---------------------+----------------+
 ; Name                ; nextstate.result ; nextstate.encrypt ; nextstate.load_data ; nextstate.idle ;
 +---------------------+------------------+-------------------+---------------------+----------------+
@@ -319,7 +319,7 @@ Encoding Type:  One-Hot
 
 Encoding Type:  One-Hot
 +-------------------------------------------------------------------------------+
-; State Machine - |Anubis|state                                                 ;
+; State Machine - |Anubis_2|state                                               ;
 +-----------------+--------------+---------------+-----------------+------------+
 ; Name            ; state.result ; state.encrypt ; state.load_data ; state.idle ;
 +-----------------+--------------+---------------+-----------------+------------+
@@ -362,34 +362,34 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                    ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                          ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------+
-; 6:1                ; 128 bits  ; 512 LEs       ; 256 LEs              ; 256 LEs                ; Yes        ; |Anubis|key[7]                                                      ;
-; 6:1                ; 128 bits  ; 512 LEs       ; 256 LEs              ; 256 LEs                ; Yes        ; |Anubis|data[36]                                                    ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_3_3_3[3] ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_3_1[4]   ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_2_3_3[4] ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_2_1[3]   ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_1_2_3[3]   ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_1_1[3]   ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_0_3_3[3] ;
-; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_0_1[4]   ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------+
+; 6:1                ; 128 bits  ; 512 LEs       ; 256 LEs              ; 256 LEs                ; Yes        ; |Anubis_2|key[7]                                                      ;
+; 6:1                ; 128 bits  ; 512 LEs       ; 256 LEs              ; 256 LEs                ; Yes        ; |Anubis_2|data[36]                                                    ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_3_3_3[3] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_3_1[4]   ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_2_3_3[4] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_2_1[3]   ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_1_2_3[3]   ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_1_1[3]   ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_0_3_3[3] ;
+; 4:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; No         ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega|factor_3_0_1[4]   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Top-level Entity: |Anubis ;
-+----------------+-------+-----------------------------------------------+
-; Parameter Name ; Value ; Type                                          ;
-+----------------+-------+-----------------------------------------------+
-; idle           ; 0     ; Signed Integer                                ;
-; load_data      ; 1     ; Signed Integer                                ;
-; encrypt        ; 2     ; Signed Integer                                ;
-; result         ; 3     ; Signed Integer                                ;
-+----------------+-------+-----------------------------------------------+
++--------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |Anubis_2 ;
++----------------+-------+-------------------------------------------------+
+; Parameter Name ; Value ; Type                                            ;
++----------------+-------+-------------------------------------------------+
+; idle           ; 0     ; Signed Integer                                  ;
+; load_data      ; 1     ; Signed Integer                                  ;
+; encrypt        ; 2     ; Signed Integer                                  ;
+; result         ; 3     ; Signed Integer                                  ;
++----------------+-------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -448,8 +448,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     extend            ; 26                          ;
 ;         7 data inputs ; 26                          ;
 ;     normal            ; 3024                        ;
-;         2 data inputs ; 165                         ;
-;         3 data inputs ; 72                          ;
+;         2 data inputs ; 164                         ;
+;         3 data inputs ; 73                          ;
 ;         4 data inputs ; 338                         ;
 ;         5 data inputs ; 339                         ;
 ;         6 data inputs ; 2110                        ;
@@ -475,7 +475,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Wed Jan 16 17:15:03 2019
+    Info: Processing started: Wed Jan 16 19:54:05 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Anubis -c Anubis
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -525,13 +525,15 @@ Info (12021): Found 1 design units, including 1 entities, in source file anubis.
     Info (12023): Found entity 1: Anubis File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file anubis_tb.v
     Info (12023): Found entity 1: Anubis_tb File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_tb.v Line: 2
-Info (12127): Elaborating entity "Anubis" for the top level hierarchy
-Info (12128): Elaborating entity "Gamma" for hierarchy "Gamma:sub" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file anubis_2.v
+    Info (12023): Found entity 1: Anubis_2 File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 3
+Info (12127): Elaborating entity "Anubis_2" for the top level hierarchy
+Info (12128): Elaborating entity "Gamma" for hierarchy "Gamma:sub" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 27
 Info (12128): Elaborating entity "Sbox" for hierarchy "Gamma:sub|Sbox:sboxes[0].s16" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v Line: 13
-Info (12128): Elaborating entity "Tau" for hierarchy "Tau:shift" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 28
-Info (12128): Elaborating entity "Theta" for hierarchy "Theta:mix" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 29
+Info (12128): Elaborating entity "Tau" for hierarchy "Tau:shift" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 28
+Info (12128): Elaborating entity "Theta" for hierarchy "Theta:mix" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 29
 Info (12128): Elaborating entity "Multiplication" for hierarchy "Theta:mix|Multiplication:thetas[0].m4" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v Line: 13
-Info (12128): Elaborating entity "Key_Schedule" for hierarchy "Key_Schedule:key_update" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 31
+Info (12128): Elaborating entity "Key_Schedule" for hierarchy "Key_Schedule:key_update" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 31
 Info (12128): Elaborating entity "Round_Constants" for hierarchy "Key_Schedule:key_update|Round_Constants:round_constants" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v Line: 14
 Info (12128): Elaborating entity "Psi" for hierarchy "Key_Schedule:key_update|Psi:psi" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v Line: 15
 Info (12128): Elaborating entity "Pi" for hierarchy "Key_Schedule:key_update|Psi:psi|Pi:pi" File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Psi.v Line: 10
@@ -566,262 +568,262 @@ Info (144001): Generated suppressed messages file C:/Users/Damian/Desktop/Anubis
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Info (15717): Design contains 256 virtual pins; timing numbers associated with paths containing virtual pins are estimates
-    Info (15719): Pin "data_out[0]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[1]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[2]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[3]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[4]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[5]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[6]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[7]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[8]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[9]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[10]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[11]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[12]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[13]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[14]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[15]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[16]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[17]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[18]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[19]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[20]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[21]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[22]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[23]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[24]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[25]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[26]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[27]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[28]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[29]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[30]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[31]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[32]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[33]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[34]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[35]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[36]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[37]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[38]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[39]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[40]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[41]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[42]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[43]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[44]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[45]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[46]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[47]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[48]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[49]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[50]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[51]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[52]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[53]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[54]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[55]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[56]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[57]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[58]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[59]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[60]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[61]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[62]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[63]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[64]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[65]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[66]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[67]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[68]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[69]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[70]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[71]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[72]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[73]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[74]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[75]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[76]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[77]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[78]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[79]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[80]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[81]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[82]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[83]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[84]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[85]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[86]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[87]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[88]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[89]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[90]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[91]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[92]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[93]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[94]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[95]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[96]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[97]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[98]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[99]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[100]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[101]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[102]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[103]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[104]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[105]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[106]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[107]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[108]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[109]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[110]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[111]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[112]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[113]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[114]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[115]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[116]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[117]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[118]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[119]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[120]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[121]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[122]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[123]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[124]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[125]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[126]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15719): Pin "data_out[127]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 46
-    Info (15718): Pin "data_in[0]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[6]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[2]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[3]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[4]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[5]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[7]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[1]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[32]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[38]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[34]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[35]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[36]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[37]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[39]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[33]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[8]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[9]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[10]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[11]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[12]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[13]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[14]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[15]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[64]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[70]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[66]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[67]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[68]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[69]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[71]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[65]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[16]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[17]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[18]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[19]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[20]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[21]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[22]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[23]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[96]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[102]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[98]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[99]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[100]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[101]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[103]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[97]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[24]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[25]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[26]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[27]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[28]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[29]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[30]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[31]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[40]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[46]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[42]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[43]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[44]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[45]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[47]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[41]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[72]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[78]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[74]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[75]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[76]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[77]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[79]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[73]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[48]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[49]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[50]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[51]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[52]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[53]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[54]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[55]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[104]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[110]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[106]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[107]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[108]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[109]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[111]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[105]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[56]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[57]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[58]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[59]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[60]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[61]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[62]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[63]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[80]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[86]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[82]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[83]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[84]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[85]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[87]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[81]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[112]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[118]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[114]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[115]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[116]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[117]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[119]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[113]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[88]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[89]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[90]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[91]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[92]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[93]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[94]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[95]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[120]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[126]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[122]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[123]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[124]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[125]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[127]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
-    Info (15718): Pin "data_in[121]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 4
+    Info (15719): Pin "data_out[0]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[1]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[2]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[3]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[4]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[5]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[6]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[7]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[8]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[9]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[10]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[11]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[12]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[13]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[14]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[15]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[16]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[17]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[18]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[19]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[20]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[21]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[22]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[23]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[24]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[25]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[26]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[27]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[28]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[29]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[30]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[31]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[32]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[33]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[34]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[35]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[36]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[37]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[38]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[39]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[40]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[41]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[42]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[43]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[44]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[45]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[46]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[47]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[48]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[49]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[50]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[51]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[52]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[53]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[54]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[55]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[56]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[57]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[58]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[59]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[60]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[61]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[62]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[63]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[64]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[65]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[66]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[67]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[68]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[69]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[70]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[71]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[72]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[73]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[74]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[75]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[76]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[77]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[78]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[79]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[80]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[81]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[82]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[83]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[84]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[85]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[86]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[87]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[88]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[89]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[90]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[91]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[92]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[93]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[94]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[95]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[96]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[97]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[98]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[99]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[100]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[101]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[102]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[103]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[104]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[105]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[106]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[107]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[108]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[109]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[110]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[111]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[112]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[113]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[114]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[115]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[116]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[117]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[118]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[119]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[120]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[121]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[122]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[123]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[124]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[125]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[126]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15719): Pin "data_out[127]" is virtual output pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+    Info (15718): Pin "data_in[0]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[6]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[2]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[3]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[4]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[5]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[7]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[1]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[32]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[38]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[34]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[35]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[36]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[37]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[39]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[33]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[8]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[9]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[10]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[11]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[12]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[13]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[14]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[15]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[64]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[70]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[66]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[67]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[68]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[69]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[71]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[65]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[16]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[17]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[18]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[19]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[20]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[21]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[22]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[23]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[96]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[102]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[98]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[99]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[100]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[101]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[103]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[97]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[24]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[25]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[26]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[27]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[28]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[29]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[30]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[31]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[40]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[46]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[42]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[43]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[44]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[45]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[47]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[41]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[72]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[78]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[74]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[75]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[76]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[77]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[79]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[73]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[48]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[49]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[50]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[51]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[52]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[53]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[54]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[55]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[104]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[110]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[106]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[107]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[108]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[109]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[111]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[105]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[56]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[57]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[58]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[59]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[60]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[61]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[62]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[63]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[80]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[86]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[82]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[83]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[84]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[85]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[87]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[81]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[112]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[118]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[114]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[115]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[116]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[117]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[119]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[113]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[88]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[89]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[90]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[91]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[92]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[93]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[94]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[95]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[120]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[126]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[122]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[123]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[124]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[125]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[127]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
+    Info (15718): Pin "data_in[121]" is virtual input pin File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 4
 Warning (15752): Ignored 4 Virtual Pin logic option assignments
     Warning (15720): Ignored Virtual Pin assignment to node "round_counter[0]"
     Warning (15720): Ignored Virtual Pin assignment to node "round_counter[1]"
@@ -832,10 +834,10 @@ Info (21057): Implemented 3406 device resources after synthesis - the final reso
     Info (21059): Implemented 0 output pins
     Info (21061): Implemented 3402 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 695 megabytes
-    Info: Processing ended: Wed Jan 16 17:15:42 2019
-    Info: Elapsed time: 00:00:39
-    Info: Total CPU time (on all processors): 00:00:56
+    Info: Peak virtual memory: 694 megabytes
+    Info: Processing ended: Wed Jan 16 19:54:41 2019
+    Info: Elapsed time: 00:00:36
+    Info: Total CPU time (on all processors): 00:00:53
 
 
 +------------------------------------------+

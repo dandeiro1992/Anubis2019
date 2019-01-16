@@ -1,5 +1,5 @@
 Flow report for Anubis
-Wed Jan 16 17:19:20 2019
+Wed Jan 16 19:59:08 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,14 +41,14 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Jan 16 17:19:20 2019       ;
+; Flow Status                     ; Successful - Wed Jan 16 19:59:08 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; Anubis                                      ;
-; Top-level Entity Name           ; Anubis                                      ;
+; Top-level Entity Name           ; Anubis_2                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA6U23C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 2,737 / 41,910 ( 7 % )                      ;
+; Logic utilization (in ALMs)     ; 2,740 / 41,910 ( 7 % )                      ;
 ; Total registers                 ; 396                                         ;
 ; Total pins                      ; 4 / 314 ( 1 % )                             ;
 ; Total virtual pins              ; 256                                         ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/16/2019 17:15:04 ;
+; Start date & time ; 01/16/2019 19:54:05 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Anubis              ;
 +-------------------+---------------------+
@@ -79,16 +79,17 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 272883581633501.154765530404632        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 272883581633501.154766484504252        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; Anubis_2    ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; Anubis_2    ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; Anubis_2    ; Top            ;
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; Anubis_2                               ; Anubis        ; --          ; --             ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
@@ -97,12 +98,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:38     ; 1.0                     ; 681 MB              ; 00:00:56                           ;
-; Fitter                    ; 00:03:02     ; 1.1                     ; 2083 MB             ; 00:05:15                           ;
-; Assembler                 ; 00:00:10     ; 1.0                     ; 713 MB              ; 00:00:10                           ;
-; TimeQuest Timing Analyzer ; 00:00:14     ; 1.6                     ; 1001 MB             ; 00:00:21                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 640 MB              ; 00:00:04                           ;
-; Total                     ; 00:04:08     ; --                      ; --                  ; 00:06:46                           ;
+; Analysis & Synthesis      ; 00:00:36     ; 1.0                     ; 681 MB              ; 00:00:53                           ;
+; Fitter                    ; 00:03:53     ; 1.0                     ; 2085 MB             ; 00:07:22                           ;
+; Assembler                 ; 00:00:10     ; 1.0                     ; 714 MB              ; 00:00:10                           ;
+; TimeQuest Timing Analyzer ; 00:00:15     ; 1.6                     ; 997 MB              ; 00:00:23                           ;
+; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 637 MB              ; 00:00:04                           ;
+; Total                     ; 00:04:58     ; --                      ; --                  ; 00:08:52                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

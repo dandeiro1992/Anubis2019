@@ -1,7 +1,7 @@
-Analysis & Synthesis Status : Successful - Wed Jan 16 17:15:41 2019
+Analysis & Synthesis Status : Successful - Wed Jan 16 19:54:41 2019
 Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 Revision Name : Anubis
-Top-level Entity Name : Anubis
+Top-level Entity Name : Anubis_2
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 396

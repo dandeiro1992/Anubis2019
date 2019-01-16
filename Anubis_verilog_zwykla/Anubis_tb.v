@@ -5,7 +5,7 @@ module Anubis_tb;
 	reg[1:0] order;
    wire [127:0] data_o; 
 
-Anubis enc(.data_in(data_i),.clk(clk), .reset(reset),.order(order),.data_out(data_o));
+Anubis_2 enc(.data_in(data_i),.clk(clk), .reset(reset),.order(order),.data_out(data_o));
 
 initial 
 begin

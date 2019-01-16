@@ -30,8 +30,10 @@ Theta mix(.data_in(tau_o),.data_out(theta_o));
 
 Key_Schedule key_update(.data_in(round_key),.round_counter(round_counter+4'h1),.data_out(key_update_output));
 
+
 assign gamma_i=data;
 assign round_key=key;
+//assign round_key=key_update_output;
 
 parameter idle=0,load_data=1,encrypt=2,result=3;
 
@@ -72,7 +74,7 @@ begin
 	encrypt:
 		if((order!=2'b00)&&(order!=2'b01))
 		begin
-			if(round_counter<4'hb)
+			if(round_counter<4'hc)
 			begin
 				if(round_counter==4'h0)
 				begin

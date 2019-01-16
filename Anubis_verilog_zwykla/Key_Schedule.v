@@ -21,5 +21,5 @@ Fi fi_2 (.data_in(data_in),.data_out(tmp_4));
 
 // teraz robmy warunek w zależności od numeru rundy:
 
-assign data_out=(round_counter[3:0]==4'b0)?(tmp_4):(tmp_3);
+assign data_out=((round_counter[3:0]-4'h1)==4'b0)?(tmp_4):(tmp_3);
 endmodule

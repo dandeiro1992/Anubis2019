@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/simulation/modelsim
 vAdd_Round_Constants
-Z1 !s110 1547655714
+Z1 !s110 1547667276
 !i10b 1
 !s100 i^X3@2c=WEFb_liHQMEiQ0
 IbMn^J5CKlD9<1XQzTUAQa3
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1547655714.000000
+Z4 !s108 1547667276.000000
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Constants.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Constants.v|
 !i113 1
@@ -53,13 +53,13 @@ R5
 R6
 n@add_@round_@key
 vAnubis
-!s110 1547656104
+R1
 !i10b 1
-!s100 bZiLE=?dobXPk`GLd3RhS3
-IM>CEz=D7jz_Q1JQhQb9nC2
+!s100 ^8I=aTi:LQz^o8OS_E5z62
+IM0hbO?4hm:gPFiRlMaA3`3
 R2
 R0
-w1547656095
+w1547667067
 8C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v
 FC:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v
 L0 3
@@ -67,21 +67,43 @@ R3
 r1
 !s85 0
 31
-!s108 1547656104.000000
+R4
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v|
 !i113 1
 R5
 R6
 n@anubis
-vAnubis_tb
-!s110 1547655966
+vAnubis_2
+!s110 1547672277
 !i10b 1
-!s100 00V`B>ozGc7dOE6]fn1Dg1
-IL9<Xh>k>`?JIG<9ezCL0H2
+!s100 Qne[ki5JWQNm>EVgRno9l2
+IaEFY84HFk:M]gS=[da7b01
 R2
 R0
-w1547655960
+w1547672271
+8C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v
+FC:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1547672277.000000
+!s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v|
+!i113 1
+R5
+R6
+n@anubis_2
+vAnubis_tb
+!s110 1547672279
+!i10b 1
+!s100 D9=Wb:X5z^FURiBF5:7`o2
+ICe1HzDSjX4>QGhaDYjV;S3
+R2
+R0
+w1547664842
 8C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_tb.v
 FC:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_tb.v
 L0 2
@@ -89,7 +111,7 @@ R3
 r1
 !s85 0
 31
-!s108 1547655966.000000
+!s108 1547672279.000000
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_tb.v|
 !i113 1
@@ -97,7 +119,7 @@ R5
 R6
 n@anubis_tb
 vFi
-R1
+Z8 !s110 1547667277
 !i10b 1
 !s100 Pl>]mE2Fe^DY<aA[djTZ=0
 Ib1RzU?k?D3YY<4L>[jmIF2
@@ -111,7 +133,7 @@ R3
 r1
 !s85 0
 31
-R4
+Z9 !s108 1547667277.000000
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v|
 !i113 1
@@ -119,7 +141,7 @@ R5
 R6
 n@fi
 vFi_tb
-R1
+R8
 !i10b 1
 !s100 2CZ;6Vz?E?S>2S:4:0Mz70
 Iz^:P9VOeDf=[?2MR[WMBU0
@@ -133,7 +155,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi_tb.v|
 !i113 1
@@ -141,7 +163,7 @@ R5
 R6
 n@fi_tb
 vGamma
-R1
+R8
 !i10b 1
 !s100 8b^k@YU?bSR>CDWN1CSQ82
 IfR@calb0h[@Z;0m_m0b?51
@@ -155,7 +177,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma.v|
 !i113 1
@@ -163,7 +185,7 @@ R5
 R6
 n@gamma
 vGamma_tb
-R1
+R8
 !i10b 1
 !s100 6785z6==agGBaj9lo;6I>2
 IoDH5Wk6[[_ATMPh00jOWO1
@@ -177,7 +199,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Gamma_tb.v|
 !i113 1
@@ -185,13 +207,13 @@ R5
 R6
 n@gamma_tb
 vKey_Schedule
-R1
+R8
 !i10b 1
-!s100 PW`<>3@SP_?z>Wo=6OzU20
-IWel1ObYL@k4IezBzI@m<N2
+!s100 NeL6SD:H22]jYkVW_5P;C2
+I6@EGfd;l1aeHcM4H;Licm2
 R2
 R0
-w1547654665
+w1547665710
 8C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v
 FC:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v
 L0 3
@@ -199,7 +221,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Key_Schedule.v|
 !i113 1
@@ -207,7 +229,7 @@ R5
 R6
 n@key_@schedule
 vMultiplication
-R1
+R8
 !i10b 1
 !s100 3N3Uo[`eD_@Joo;Em0N]b3
 II76ao@<gF<FXFYP?`5DH>1
@@ -221,7 +243,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication.v|
 !i113 1
@@ -229,7 +251,7 @@ R5
 R6
 n@multiplication
 vMultiplication_tb
-R1
+R8
 !i10b 1
 !s100 9dfGzNDO=eohl2fklh<I^0
 I52Y?n13MXM3C<Hi>UF`BN1
@@ -243,7 +265,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Multiplication_tb.v|
 !i113 1
@@ -251,7 +273,7 @@ R5
 R6
 n@multiplication_tb
 vOmega
-R1
+R8
 !i10b 1
 !s100 7dAWHCWhNfolP[:X`7GgY3
 I@4dfc3FZIlV8J?lB31R[e3
@@ -265,7 +287,7 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega.v|
 !i113 1
@@ -273,7 +295,7 @@ R5
 R6
 n@omega
 vOmega_tb
-R1
+R8
 !i10b 1
 !s100 K:`4PmL^1I?LT:nBFj=2?0
 IR_32<M4zcmQ00KI_c_57=3
@@ -287,15 +309,15 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Omega_tb.v|
 !i113 1
 R5
 R6
 n@omega_tb
 vPi
-Z8 !s110 1547655715
+R8
 !i10b 1
 !s100 b>_OF4g6HJ<Z:gkm;N]Pc1
 I5UB8@Q[R<z`E9HSR4F=]90
@@ -309,9 +331,9 @@ R3
 r1
 !s85 0
 31
-R4
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi.v|
 !i113 1
 R5
 R6
@@ -331,9 +353,9 @@ R3
 r1
 !s85 0
 31
-Z9 !s108 1547655715.000000
+R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi_tb.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Pi_tb.v|
 !i113 1
 R5
 R6
@@ -355,19 +377,19 @@ r1
 31
 R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Psi.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Psi.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Psi.v|
 !i113 1
 R5
 R6
 n@psi
 vRound_Constants
-R8
+Z10 !s110 1547667278
 !i10b 1
-!s100 LeGiOMlkj5Gzd[OQ`@dc_0
-IP=a4ha;ih^CK>4AU>mfY93
+!s100 S0XE<TZ6T6mackKChP1>e2
+I1kGnX<Y[lGZgOnBKiCYl82
 R2
 R0
-w1547654672
+w1547663859
 8C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v
 FC:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v
 L0 3
@@ -377,13 +399,13 @@ r1
 31
 R9
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants.v|
 !i113 1
 R5
 R6
 n@round_@constants
 vRound_Constants_tb
-R8
+R10
 !i10b 1
 !s100 ^V[3OD_5NV7M>DUdgW=SC3
 IQO=jJ5jXzP?RzdfzRib0M3
@@ -397,15 +419,15 @@ R3
 r1
 !s85 0
 31
-R9
+Z11 !s108 1547667278.000000
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Round_Constants_tb.v|
 !i113 1
 R5
 R6
 n@round_@constants_tb
 vSbox
-R8
+R10
 !i10b 1
 !s100 28>Y=TF^;e^b?gNZZ82081
 IF<J@bQ`g]lnY2`A36n<RA2
@@ -419,15 +441,15 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Sbox.v|
 !i113 1
 R5
 R6
 n@sbox
 vTau
-R8
+R10
 !i10b 1
 !s100 VN9L_FCQZW9T[597k2mUh3
 IQG5d3J>@<cFJR_OnDzZ4?2
@@ -441,15 +463,15 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau.v|
 !i113 1
 R5
 R6
 n@tau
 vTau_tb
-R8
+R10
 !i10b 1
 !s100 `hcz=P0<8W32doAVRkm992
 IB11@]fEbgPFTSJ>e?j^Fk2
@@ -463,15 +485,15 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau_tb.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Tau_tb.v|
 !i113 1
 R5
 R6
 n@tau_tb
 vTheta
-R8
+R10
 !i10b 1
 !s100 EJISaKUYSgEn0Ih:M4`5F2
 IdPYo[>SW5TMEJ[W@ojZ4`1
@@ -485,15 +507,15 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta.v|
 !i113 1
 R5
 R6
 n@theta
 vTheta_tb
-R8
+R10
 !i10b 1
 !s100 0c@6d694@UOgTfZOa[PPP2
 IKIhn7knK4gO499=g?@nkU0
@@ -507,9 +529,9 @@ R3
 r1
 !s85 0
 31
-R9
+R11
 !s107 C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta_tb.v|
-!s90 -reportprogress|30|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Theta_tb.v|
 !i113 1
 R5
 R6
