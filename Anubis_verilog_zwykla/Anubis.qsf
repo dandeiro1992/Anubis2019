@@ -74,3 +74,7 @@ set_instance_assignment -name VIRTUAL_PIN ON -to data_in
 set_instance_assignment -name VIRTUAL_PIN ON -to data_out
 set_instance_assignment -name VIRTUAL_PIN ON -to round_counter
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VERILOG_FILE Gamma_tb.v
+set_global_assignment -name VERILOG_FILE Tau_tb.v
+set_global_assignment -name VERILOG_FILE Theta_tb.v
+set_global_assignment -name VERILOG_FILE Pi_tb.v
