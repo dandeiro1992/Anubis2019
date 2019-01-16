@@ -1,0 +1,104 @@
+`timescale 1ns / 1ps
+
+module Anubis (
+    input  [127 : 0] data_in,                // plaintext or master key, depends on key_load and data_load
+    input clk,                              // clock
+    input reset,                            // reset
+    input [   1 : 0] order,                 // 00 - load key, 01 - load plaintext, 01 - start encryption
+    output reg [127 : 0] data_out             // ciphertext
+);
+reg  [3 : 0] state;                         // current state
+reg  [3 : 0] nextstate;                     // next state
+reg  [3 : 0] round_counter;            // round counter, differs from original one cause round key is calculated during encryption
+reg  [127 : 0] key;                         // register to store master key at the beggining
+wire  [127 : 0] round_key;                   // register to store acual round key
+reg  [127 : 0] data;    							//register to store data;
+
+wire [127 : 0] sub_i;                       // input to Sub_Bytes
+wire [127 : 0] sub_o;                       // output from Sub_Bytes
+wire [127 : 0] shift_i;                     // input to Shift_Rows
+wire [127 : 0] shift_o; 						  // input from Shift_Rows
+wire [127 : 0] mix_i;                       // input to Mix_Columns
+wire [127 : 0] mix_o;                       // output from Mix_Columns
+wire [127 : 0] key_update_output;           // output from key schedule algorithm
+
+
+//used modules
+Sub_Bytes sub(.data_i(sub_i),.data_o(sub_o));
+Shift_Rows shift (.data_in(sub_o),.data_out(shift_o));
+Mix_Columns mix(.data_in(shift_o),.data_out(mix_o));
+
+Key_Schedule key_update(.data_in(round_key),.round_counter(round_counter+4'h1),.data_out(key_update_output));
+
+assign sub_i=data;
+assign round_key=key;
+
+parameter idle=0,load_data=1,encrypt=2,result=3;
+
+always@(posedge clk)
+begin
+if(reset)
+	state<=idle;
+else
+	state<=nextstate;
+end
+
+always@(posedge clk)
+begin
+	case(state)
+	idle:
+		begin
+		round_counter=4'h0;
+		if(order==2'b00)
+		begin
+			nextstate<=load_data;
+		end
+		else if(order==2'b01)
+		begin
+			nextstate<=load_data;
+		end
+		end
+	load_data:
+		if(order==2'b00)
+		begin
+			key<=data_in;
+			nextstate<=load_data;
+		end
+		else if(order==2'b01)
+		begin
+			data=data_in;
+			nextstate=encrypt;
+		end
+	encrypt:
+		if((order!=2'b00)&&(order!=2'b01))
+		begin
+			if(round_counter<4'ha)
+			begin
+				if(round_counter==4'h0)
+				begin
+				key<=key_update_output;
+				data<=sub_i^round_key;
+				round_counter<=round_counter+4'h1;
+				nextstate<=encrypt;
+				end
+				else
+				begin
+				key<=key_update_output;
+				data<=mix_o^round_key;
+				round_counter<=round_counter+4'h1;
+				nextstate<=encrypt;
+				end
+			end
+			else
+			begin
+				nextstate<=result;
+			end
+		end	
+	result:
+		data_out<=shift_o^round_key;
+	default:
+		nextstate<=idle;
+	endcase
+end
+
+endmodule

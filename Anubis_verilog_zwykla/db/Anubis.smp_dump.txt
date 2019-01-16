@@ -1,0 +1,14 @@
+
+State Machine - |Anubis|nextstate
+Name nextstate.result nextstate.encrypt nextstate.load_data nextstate.idle 
+nextstate.idle 0 0 0 0 
+nextstate.load_data 0 0 1 1 
+nextstate.encrypt 0 1 0 1 
+nextstate.result 1 0 0 1 
+
+State Machine - |Anubis|state
+Name state.result state.encrypt state.load_data state.idle 
+state.idle 0 0 0 0 
+state.load_data 0 0 1 1 
+state.encrypt 0 1 0 1 
+state.result 1 0 0 1 

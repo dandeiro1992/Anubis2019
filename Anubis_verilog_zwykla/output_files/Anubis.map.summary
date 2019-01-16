@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Mon Jan 14 17:59:53 2019
+Analysis & Synthesis Status : Successful - Wed Jan 16 17:15:41 2019
 Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 Revision Name : Anubis
-Top-level Entity Name : Key_Schedule
+Top-level Entity Name : Anubis
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 0
-Total pins : 0
-Total virtual pins : 260
+Total registers : 396
+Total pins : 4
+Total virtual pins : 256
 Total block memory bits : 0
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0

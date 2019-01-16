@@ -17,4 +17,5 @@ vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_
 vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Fi.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Add_Round_Constants.v}
 vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Psi.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla {C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v}
 
