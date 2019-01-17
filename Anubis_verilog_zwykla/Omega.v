@@ -479,7 +479,7 @@ assign factor_3_2_2_4=(factor_3_2_2_3[7]==1'b0)?{factor_3_2_2_3[6:0],1'b0}:({fac
 assign factor_3_2_2_5=(factor_3_2_2_4[7]==1'b0)?{factor_3_2_2_4[6:0],1'b0}:({factor_3_2_2_4[6:0],1'b0}^8'h1d);
 assign factor_3_2_2=(factor_3_2_2_5[7]==1'b0)?{factor_3_2_2_5[6:0],1'b0}:({factor_3_2_2_5[6:0],1'b0}^8'h1d);
 
-assign factor_3_2_3_1=(byte_3_1[7]==1'b0)?{byte_3_1[6:0],1'b0}:({byte_3_1[6:0],1'b0}^8'h1d);
+assign factor_3_2_3_1=(byte_3_2[7]==1'b0)?{byte_3_2[6:0],1'b0}:({byte_3_2[6:0],1'b0}^8'h1d);
 assign factor_3_2_3_2=(factor_3_2_3_1[7]==1'b0)?{factor_3_2_3_1[6:0],1'b0}:({factor_3_2_3_1[6:0],1'b0}^8'h1d);
 assign factor_3_2_3_3=(factor_3_2_3_2[7]==1'b0)?{factor_3_2_3_2[6:0],1'b0}:({factor_3_2_3_2[6:0],1'b0}^8'h1d);
 assign factor_3_2_3_4=(factor_3_2_3_3[7]==1'b0)?{factor_3_2_3_3[6:0],1'b0}:({factor_3_2_3_3[6:0],1'b0}^8'h1d);

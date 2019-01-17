@@ -1,0 +1,14 @@
+
+f=x^8+x^4+x^3+x^2+1
+print(f)
+K.<a> = GF(2**8, name='a', modulus=f )
+
+g=a^6+a^5+a^3
+h=a^7+a^6+a^5+1
+i=a^7+a^6+a^5
+j=a^7+a^6+a^4+a
+print (g+h+i+j)
+print(g+a*h+a*a*i+a*a*a*j)
+print(g+(a^2+a)*h+(a^2+a)*(a^2+a)*i+(a^2+a)*(a^2+a)*(a^2+a)*j)
+print(g+(a^3)*h+(a^3)*(a^3)*i+(a^3)*(a^3)*(a^3)*j)
+
