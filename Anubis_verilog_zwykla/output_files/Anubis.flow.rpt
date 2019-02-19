@@ -1,5 +1,5 @@
 Flow report for Anubis
-Wed Jan 16 19:59:08 2019
+Tue Feb 19 13:13:58 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -41,15 +41,15 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Jan 16 19:59:08 2019       ;
+; Flow Status                     ; Successful - Tue Feb 19 13:13:58 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; Anubis                                      ;
 ; Top-level Entity Name           ; Anubis_2                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA6U23C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 2,740 / 41,910 ( 7 % )                      ;
-; Total registers                 ; 396                                         ;
+; Logic utilization (in ALMs)     ; 2,649 / 41,910 ( 6 % )                      ;
+; Total registers                 ; 524                                         ;
 ; Total pins                      ; 4 / 314 ( 1 % )                             ;
 ; Total virtual pins              ; 256                                         ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
@@ -68,7 +68,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 01/16/2019 19:54:05 ;
+; Start date & time ; 02/19/2019 13:10:15 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Anubis              ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 272883581633501.154766484504252        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 176694086997554.155057821501708        ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
@@ -98,26 +98,26 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:36     ; 1.0                     ; 681 MB              ; 00:00:53                           ;
-; Fitter                    ; 00:03:53     ; 1.0                     ; 2085 MB             ; 00:07:22                           ;
-; Assembler                 ; 00:00:10     ; 1.0                     ; 714 MB              ; 00:00:10                           ;
-; TimeQuest Timing Analyzer ; 00:00:15     ; 1.6                     ; 997 MB              ; 00:00:23                           ;
-; EDA Netlist Writer        ; 00:00:04     ; 1.0                     ; 637 MB              ; 00:00:04                           ;
-; Total                     ; 00:04:58     ; --                      ; --                  ; 00:08:52                           ;
+; Analysis & Synthesis      ; 00:00:45     ; 1.0                     ; 4876 MB             ; 00:01:01                           ;
+; Fitter                    ; 00:02:21     ; 1.1                     ; 6579 MB             ; 00:04:56                           ;
+; Assembler                 ; 00:00:13     ; 1.0                     ; 4870 MB             ; 00:00:11                           ;
+; TimeQuest Timing Analyzer ; 00:00:13     ; 2.5                     ; 5201 MB             ; 00:00:26                           ;
+; EDA Netlist Writer        ; 00:00:05     ; 1.0                     ; 4801 MB             ; 00:00:04                           ;
+; Total                     ; 00:03:37     ; --                      ; --                  ; 00:06:38                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                        ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
-+---------------------------+------------------+-----------+------------+----------------+
-; Analysis & Synthesis      ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
-; Fitter                    ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
-; Assembler                 ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
-; TimeQuest Timing Analyzer ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
-; EDA Netlist Writer        ; Lenovo           ; Windows 7 ; 6.1        ; x86_64         ;
-+---------------------------+------------------+-----------+------------+----------------+
++-----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                         ;
++---------------------------+------------------+------------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++---------------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter                    ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler                 ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-L2590DJ  ; Windows 10 ; 10.0       ; x86_64         ;
++---------------------------+------------------+------------+------------+----------------+
 
 
 ------------

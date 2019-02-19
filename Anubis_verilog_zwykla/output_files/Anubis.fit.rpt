@@ -1,5 +1,5 @@
 Fitter report for Anubis
-Wed Jan 16 19:58:35 2019
+Tue Feb 19 13:13:22 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -62,15 +62,15 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Wed Jan 16 19:58:35 2019       ;
+; Fitter Status                   ; Successful - Tue Feb 19 13:13:22 2019       ;
 ; Quartus Prime Version           ; 16.1.0 Build 196 10/24/2016 SJ Lite Edition ;
 ; Revision Name                   ; Anubis                                      ;
 ; Top-level Entity Name           ; Anubis_2                                    ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA6U23C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 2,740 / 41,910 ( 7 % )                      ;
-; Total registers                 ; 396                                         ;
+; Logic utilization (in ALMs)     ; 2,649 / 41,910 ( 6 % )                      ;
+; Total registers                 ; 524                                         ;
 ; Total pins                      ; 4 / 314 ( 1 % )                             ;
 ; Total virtual pins              ; 256                                         ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
@@ -149,15 +149,17 @@ agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 2           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
-; Average used               ; 1.05        ;
-; Maximum used               ; 2           ;
+; Average used               ; 1.13        ;
+; Maximum used               ; 4           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   4.5%      ;
+;     Processor 2            ;   4.6%      ;
+;     Processor 3            ;   4.5%      ;
+;     Processor 4            ;   4.2%      ;
 +----------------------------+-------------+
 
 
@@ -176,8 +178,8 @@ agreement for further details.
 ; Type                ; Total [A + B]       ; From Design Partitions [A] ; From Rapid Recompile [B] ;
 +---------------------+---------------------+----------------------------+--------------------------+
 ; Placement (by node) ;                     ;                            ;                          ;
-;     -- Requested    ; 0.00 % ( 0 / 3712 ) ; 0.00 % ( 0 / 3712 )        ; 0.00 % ( 0 / 3712 )      ;
-;     -- Achieved     ; 0.00 % ( 0 / 3712 ) ; 0.00 % ( 0 / 3712 )        ; 0.00 % ( 0 / 3712 )      ;
+;     -- Requested    ; 0.00 % ( 0 / 3616 ) ; 0.00 % ( 0 / 3616 )        ; 0.00 % ( 0 / 3616 )      ;
+;     -- Achieved     ; 0.00 % ( 0 / 3616 ) ; 0.00 % ( 0 / 3616 )        ; 0.00 % ( 0 / 3616 )      ;
 ;                     ;                     ;                            ;                          ;
 ; Routing (by net)    ;                     ;                            ;                          ;
 ;     -- Requested    ; 0.00 % ( 0 / 0 )    ; 0.00 % ( 0 / 0 )           ; 0.00 % ( 0 / 0 )         ;
@@ -200,7 +202,7 @@ agreement for further details.
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 ; Partition Name                 ; Preservation Achieved ; Preservation Level Used ; Netlist Type Used ; Preservation Method ; Notes ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
-; Top                            ; 0.00 % ( 0 / 3712 )   ; N/A                     ; Source File       ; N/A                 ;       ;
+; Top                            ; 0.00 % ( 0 / 3616 )   ; N/A                     ; Source File       ; N/A                 ;       ;
 ; hard_block:auto_generated_inst ; 0.00 % ( 0 / 0 )      ; N/A                     ; Source File       ; N/A                 ;       ;
 +--------------------------------+-----------------------+-------------------------+-------------------+---------------------+-------+
 
@@ -208,7 +210,7 @@ agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/output_files/Anubis.pin.
+The pin-out file can be found in C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/output_files/Anubis.pin.
 
 
 +---------------------------------------------------------------------------------------------+
@@ -216,40 +218,40 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 +-------------------------------------------------------------+-----------------------+-------+
 ; Resource                                                    ; Usage                 ; %     ;
 +-------------------------------------------------------------+-----------------------+-------+
-; Logic utilization (ALMs needed / total ALMs on device)      ; 2,740 / 41,910        ; 7 %   ;
-; ALMs needed [=A-B+C]                                        ; 2,740                 ;       ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 2,672 / 41,910        ; 6 %   ;
-;         [a] ALMs used for LUT logic and registers           ; 198                   ;       ;
-;         [b] ALMs used for LUT logic                         ; 2,473                 ;       ;
-;         [c] ALMs used for registers                         ; 1                     ;       ;
+; Logic utilization (ALMs needed / total ALMs on device)      ; 2,649 / 41,910        ; 6 %   ;
+; ALMs needed [=A-B+C]                                        ; 2,649                 ;       ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 2,548 / 41,910        ; 6 %   ;
+;         [a] ALMs used for LUT logic and registers           ; 246                   ;       ;
+;         [b] ALMs used for LUT logic                         ; 2,286                 ;       ;
+;         [c] ALMs used for registers                         ; 16                    ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                     ;       ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 72 / 41,910           ; < 1 % ;
-;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 140 / 41,910          ; < 1 % ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 45 / 41,910           ; < 1 % ;
+;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 146 / 41,910          ; < 1 % ;
 ;         [a] Due to location constrained logic               ; 0                     ;       ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                     ;       ;
-;         [c] Due to LAB input limits                         ; 12                    ;       ;
+;         [c] Due to LAB input limits                         ; 18                    ;       ;
 ;         [d] Due to virtual I/Os                             ; 128                   ;       ;
 ;                                                             ;                       ;       ;
 ; Difficulty packing design                                   ; Low                   ;       ;
 ;                                                             ;                       ;       ;
-; Total LABs:  partially or completely used                   ; 297 / 4,191           ; 7 %   ;
-;     -- Logic LABs                                           ; 297                   ;       ;
+; Total LABs:  partially or completely used                   ; 288 / 4,191           ; 7 %   ;
+;     -- Logic LABs                                           ; 288                   ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                     ;       ;
 ;                                                             ;                       ;       ;
-; Combinational ALUT usage for logic                          ; 3,051                 ;       ;
-;     -- 7 input functions                                    ; 26                    ;       ;
-;     -- 6 input functions                                    ; 2,110                 ;       ;
-;     -- 5 input functions                                    ; 339                   ;       ;
-;     -- 4 input functions                                    ; 338                   ;       ;
-;     -- <=3 input functions                                  ; 238                   ;       ;
-; Combinational ALUT usage for route-throughs                 ; 0                     ;       ;
+; Combinational ALUT usage for logic                          ; 2,827                 ;       ;
+;     -- 7 input functions                                    ; 7                     ;       ;
+;     -- 6 input functions                                    ; 2,124                 ;       ;
+;     -- 5 input functions                                    ; 373                   ;       ;
+;     -- 4 input functions                                    ; 211                   ;       ;
+;     -- <=3 input functions                                  ; 112                   ;       ;
+; Combinational ALUT usage for route-throughs                 ; 31                    ;       ;
 ;                                                             ;                       ;       ;
-; Dedicated logic registers                                   ; 396                   ;       ;
+; Dedicated logic registers                                   ; 524                   ;       ;
 ;     -- By type:                                             ;                       ;       ;
-;         -- Primary logic registers                          ; 396 / 83,820          ; < 1 % ;
+;         -- Primary logic registers                          ; 524 / 83,820          ; < 1 % ;
 ;         -- Secondary logic registers                        ; 0 / 83,820            ; 0 %   ;
 ;     -- By function:                                         ;                       ;       ;
-;         -- Design implementation registers                  ; 396                   ;       ;
+;         -- Design implementation registers                  ; 524                   ;       ;
 ;         -- Routing optimization registers                   ; 0                     ;       ;
 ;                                                             ;                       ;       ;
 ; Virtual pins                                                ; 256                   ;       ;
@@ -305,12 +307,12 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ; Oscillator blocks                                           ; 0 / 1                 ; 0 %   ;
 ; Impedance control blocks                                    ; 0 / 4                 ; 0 %   ;
 ; Hard Memory Controllers                                     ; 0 / 2                 ; 0 %   ;
-; Average interconnect usage (total/H/V)                      ; 1.7% / 1.7% / 1.7%    ;       ;
-; Peak interconnect usage (total/H/V)                         ; 25.0% / 24.7% / 25.8% ;       ;
-; Maximum fan-out                                             ; 396                   ;       ;
-; Highest non-global fan-out                                  ; 266                   ;       ;
-; Total fan-out                                               ; 18257                 ;       ;
-; Average fan-out                                             ; 4.92                  ;       ;
+; Average interconnect usage (total/H/V)                      ; 1.9% / 1.9% / 1.9%    ;       ;
+; Peak interconnect usage (total/H/V)                         ; 34.4% / 34.0% / 35.7% ;       ;
+; Maximum fan-out                                             ; 524                   ;       ;
+; Highest non-global fan-out                                  ; 265                   ;       ;
+; Total fan-out                                               ; 18001                 ;       ;
+; Average fan-out                                             ; 4.94                  ;       ;
 +-------------------------------------------------------------+-----------------------+-------+
 
 
@@ -319,43 +321,43 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 +-------------------------------------------------------------+-----------------------+--------------------------------+
 ; Statistic                                                   ; Top                   ; hard_block:auto_generated_inst ;
 +-------------------------------------------------------------+-----------------------+--------------------------------+
-; Logic utilization (ALMs needed / total ALMs on device)      ; 2740 / 41910 ( 7 % )  ; 0 / 41910 ( 0 % )              ;
-; ALMs needed [=A-B+C]                                        ; 2740                  ; 0                              ;
-;     [A] ALMs used in final placement [=a+b+c+d]             ; 2672 / 41910 ( 6 % )  ; 0 / 41910 ( 0 % )              ;
-;         [a] ALMs used for LUT logic and registers           ; 198                   ; 0                              ;
-;         [b] ALMs used for LUT logic                         ; 2473                  ; 0                              ;
-;         [c] ALMs used for registers                         ; 1                     ; 0                              ;
+; Logic utilization (ALMs needed / total ALMs on device)      ; 2649 / 41910 ( 6 % )  ; 0 / 41910 ( 0 % )              ;
+; ALMs needed [=A-B+C]                                        ; 2649                  ; 0                              ;
+;     [A] ALMs used in final placement [=a+b+c+d]             ; 2548 / 41910 ( 6 % )  ; 0 / 41910 ( 0 % )              ;
+;         [a] ALMs used for LUT logic and registers           ; 246                   ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 2286                  ; 0                              ;
+;         [c] ALMs used for registers                         ; 16                    ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                     ; 0                              ;
-;     [B] Estimate of ALMs recoverable by dense packing       ; 72 / 41910 ( < 1 % )  ; 0 / 41910 ( 0 % )              ;
-;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 140 / 41910 ( < 1 % ) ; 0 / 41910 ( 0 % )              ;
+;     [B] Estimate of ALMs recoverable by dense packing       ; 45 / 41910 ( < 1 % )  ; 0 / 41910 ( 0 % )              ;
+;     [C] Estimate of ALMs unavailable [=a+b+c+d]             ; 146 / 41910 ( < 1 % ) ; 0 / 41910 ( 0 % )              ;
 ;         [a] Due to location constrained logic               ; 0                     ; 0                              ;
 ;         [b] Due to LAB-wide signal conflicts                ; 0                     ; 0                              ;
-;         [c] Due to LAB input limits                         ; 12                    ; 0                              ;
+;         [c] Due to LAB input limits                         ; 18                    ; 0                              ;
 ;         [d] Due to virtual I/Os                             ; 128                   ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; Difficulty packing design                                   ; Low                   ; Low                            ;
 ;                                                             ;                       ;                                ;
-; Total LABs:  partially or completely used                   ; 297 / 4191 ( 7 % )    ; 0 / 4191 ( 0 % )               ;
-;     -- Logic LABs                                           ; 297                   ; 0                              ;
+; Total LABs:  partially or completely used                   ; 288 / 4191 ( 7 % )    ; 0 / 4191 ( 0 % )               ;
+;     -- Logic LABs                                           ; 288                   ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
-; Combinational ALUT usage for logic                          ; 3051                  ; 0                              ;
-;     -- 7 input functions                                    ; 26                    ; 0                              ;
-;     -- 6 input functions                                    ; 2110                  ; 0                              ;
-;     -- 5 input functions                                    ; 339                   ; 0                              ;
-;     -- 4 input functions                                    ; 338                   ; 0                              ;
-;     -- <=3 input functions                                  ; 238                   ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 0                     ; 0                              ;
+; Combinational ALUT usage for logic                          ; 2827                  ; 0                              ;
+;     -- 7 input functions                                    ; 7                     ; 0                              ;
+;     -- 6 input functions                                    ; 2124                  ; 0                              ;
+;     -- 5 input functions                                    ; 373                   ; 0                              ;
+;     -- 4 input functions                                    ; 211                   ; 0                              ;
+;     -- <=3 input functions                                  ; 112                   ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 31                    ; 0                              ;
 ; Memory ALUT usage                                           ; 0                     ; 0                              ;
 ;     -- 64-address deep                                      ; 0                     ; 0                              ;
 ;     -- 32-address deep                                      ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; Dedicated logic registers                                   ; 0                     ; 0                              ;
 ;     -- By type:                                             ;                       ;                                ;
-;         -- Primary logic registers                          ; 396 / 83820 ( < 1 % ) ; 0 / 83820 ( 0 % )              ;
+;         -- Primary logic registers                          ; 524 / 83820 ( < 1 % ) ; 0 / 83820 ( 0 % )              ;
 ;         -- Secondary logic registers                        ; 0 / 83820 ( 0 % )     ; 0 / 83820 ( 0 % )              ;
 ;     -- By function:                                         ;                       ;                                ;
-;         -- Design implementation registers                  ; 396                   ; 0                              ;
+;         -- Design implementation registers                  ; 524                   ; 0                              ;
 ;         -- Routing optimization registers                   ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
 ;                                                             ;                       ;                                ;
@@ -373,8 +375,8 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ;     -- Registered Output Connections                        ; 0                     ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; Internal Connections                                        ;                       ;                                ;
-;     -- Total Connections                                    ; 18257                 ; 0                              ;
-;     -- Registered Connections                               ; 7751                  ; 0                              ;
+;     -- Total Connections                                    ; 18001                 ; 0                              ;
+;     -- Registered Connections                               ; 4593                  ; 0                              ;
 ;                                                             ;                       ;                                ;
 ; External Connections                                        ;                       ;                                ;
 ;     -- Top                                                  ; 0                     ; 0                              ;
@@ -406,10 +408,10 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; Name     ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
-; clk      ; W24   ; 5B       ; 89           ; 25           ; 20           ; 396                   ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; order[0] ; AF4   ; 3B       ; 26           ; 0            ; 91           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; order[1] ; U10   ; 3A       ; 6            ; 0            ; 0            ; 11                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; reset    ; AG5   ; 3B       ; 38           ; 0            ; 34           ; 4                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; clk      ; W24   ; 5B       ; 89           ; 25           ; 20           ; 524                   ; 0                  ; yes    ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; order[0] ; AG11  ; 4A       ; 56           ; 0            ; 34           ; 3                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; order[1] ; AH9   ; 4A       ; 54           ; 0            ; 51           ; 11                    ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; reset    ; AE15  ; 4A       ; 54           ; 0            ; 17           ; 4                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
 +----------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
 
@@ -420,9 +422,9 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 +----------+----------------+---------------+--------------+---------------+
 ; B2L      ; 0 / 0 ( -- )   ; --            ; --           ; --            ;
 ; B1L      ; 0 / 0 ( -- )   ; --            ; --           ; --            ;
-; 3A       ; 1 / 16 ( 6 % ) ; 2.5V          ; --           ; 2.5V          ;
-; 3B       ; 2 / 32 ( 6 % ) ; 2.5V          ; --           ; 2.5V          ;
-; 4A       ; 0 / 68 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 3A       ; 0 / 16 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 3B       ; 0 / 32 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 4A       ; 3 / 68 ( 4 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 5A       ; 0 / 16 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 5B       ; 1 / 7 ( 14 % ) ; 2.5V          ; --           ; 2.5V          ;
 ; 6B       ; 0 / 44 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
@@ -562,7 +564,7 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ; AE12     ; 127        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AE13     ;            ; 3B             ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AE14     ;            ;                ; DNU                             ;        ;              ;                     ; --           ;                 ; --       ; --           ;
-; AE15     ; 141        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AE15     ; 141        ; 4A             ; reset                           ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AE16     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AE17     ; 157        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AE18     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -579,7 +581,7 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ; AF1      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AF2      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AF3      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
-; AF4      ; 100        ; 3B             ; order[0]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AF4      ; 100        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF5      ; 115        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF6      ; 113        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF7      ; 118        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -608,13 +610,13 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ; AG2      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AG3      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AG4      ;            ; 3B             ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AG5      ; 126        ; 3B             ; reset                           ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AG5      ; 126        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG6      ; 116        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG7      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AG8      ; 134        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG9      ; 139        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG10     ; 142        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; AG11     ; 147        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AG11     ; 147        ; 4A             ; order[0]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AG12     ;            ; 4A             ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AG13     ; 135        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG14     ; 155        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -639,7 +641,7 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ; AH6      ; 131        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH7      ; 132        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH8      ; 137        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; AH9      ; 140        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AH9      ; 140        ; 4A             ; order[1]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
 ; AH10     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AH11     ; 145        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH12     ; 150        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -1023,7 +1025,7 @@ The pin-out file can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_veril
 ; U5       ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; U8       ;            ;                ; DNU                             ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; U9       ; 58         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; U10      ; 62         ; 3A             ; order[1]                        ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; U10      ; 62         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; U11      ; 104        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; U12      ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; U13      ; 136        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -1122,12 +1124,12 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; Pin Name ; Reason                        ;
 +----------+-------------------------------+
 ; clk      ; Incomplete set of assignments ;
-; order[0] ; Incomplete set of assignments ;
 ; order[1] ; Incomplete set of assignments ;
+; order[0] ; Incomplete set of assignments ;
 ; reset    ; Incomplete set of assignments ;
 ; clk      ; Missing location assignment   ;
-; order[0] ; Missing location assignment   ;
 ; order[1] ; Missing location assignment   ;
+; order[0] ; Missing location assignment   ;
 ; reset    ; Missing location assignment   ;
 +----------+-------------------------------+
 
@@ -1137,55 +1139,53 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                               ; Entity Name         ; Library Name ;
 +-------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------+---------------------+--------------+
-; |Anubis_2                                 ; 2740.0 (511.0)       ; 2671.0 (395.7)                   ; 70.5 (18.2)                                       ; 139.5 (133.5)                    ; 0.0 (0.0)            ; 3051 (564)          ; 396 (396)                 ; 0 (0)         ; 0                 ; 0     ; 0          ; 4    ; 256          ; |Anubis_2                                                                         ; Anubis_2            ; work         ;
-;    |Gamma:sub|                            ; 640.9 (0.0)          ; 640.0 (0.0)                      ; 0.0 (0.0)                                         ; 0.9 (0.0)                        ; 0.0 (0.0)            ; 640 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub                                                               ; Gamma               ; work         ;
-;       |Sbox:sboxes[0].s16|                ; 40.1 (40.1)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[0].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[10].s16|               ; 40.1 (40.1)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[10].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[11].s16|               ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[11].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[12].s16|               ; 40.1 (40.1)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[12].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[13].s16|               ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[13].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[14].s16|               ; 40.1 (40.1)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[14].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[15].s16|               ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[15].s16                                           ; Sbox                ; work         ;
-;       |Sbox:sboxes[1].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[1].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[2].s16|                ; 40.1 (40.1)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[2].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[3].s16|                ; 40.3 (40.3)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.3 (0.3)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[3].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[4].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[4].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[5].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[5].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[6].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[6].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[7].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[7].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[8].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[8].s16                                            ; Sbox                ; work         ;
-;       |Sbox:sboxes[9].s16|                ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[9].s16                                            ; Sbox                ; work         ;
-;    |Key_Schedule:key_update|              ; 1588.1 (1.0)         ; 1635.3 (1.0)                     ; 52.3 (0.0)                                        ; 5.1 (0.0)                        ; 0.0 (0.0)            ; 1847 (2)            ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update                                                 ; Key_Schedule        ; work         ;
-;       |Fi:fi|                             ; 706.0 (0.0)          ; 718.5 (0.0)                      ; 12.5 (0.0)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 774 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi                                           ; Fi                  ; work         ;
-;          |Gamma:gamma|                    ; 640.0 (0.0)          ; 640.0 (0.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 640 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma                               ; Gamma               ; work         ;
-;             |Sbox:sboxes[0].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[0].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[10].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[10].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[11].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[11].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[12].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[12].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[13].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[13].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[14].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[14].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[15].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[15].s16           ; Sbox                ; work         ;
-;             |Sbox:sboxes[1].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[1].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[2].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[2].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[3].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[3].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[4].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[4].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[5].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[5].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[6].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[6].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[7].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[7].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[8].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[8].s16            ; Sbox                ; work         ;
-;             |Sbox:sboxes[9].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Gamma:gamma|Sbox:sboxes[9].s16            ; Sbox                ; work         ;
-;          |Omega:omega|                    ; 66.0 (66.0)          ; 78.5 (78.5)                      ; 12.5 (12.5)                                       ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 134 (134)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi|Omega:omega                               ; Omega               ; work         ;
-;       |Fi:fi_2|                           ; 108.8 (0.0)          ; 125.0 (0.0)                      ; 21.3 (0.0)                                        ; 5.1 (0.0)                        ; 0.0 (0.0)            ; 216 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi_2                                         ; Fi                  ; work         ;
-;          |Omega:omega|                    ; 108.8 (108.8)        ; 125.0 (125.0)                    ; 21.3 (21.3)                                       ; 5.1 (5.1)                        ; 0.0 (0.0)            ; 216 (216)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Fi:fi_2|Omega:omega                             ; Omega               ; work         ;
-;       |Psi:psi|                           ; 757.0 (0.0)          ; 775.5 (0.0)                      ; 18.5 (0.0)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 824 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi                                         ; Psi                 ; work         ;
-;          |Add_Round_Constants:add|        ; 36.5 (36.5)          ; 38.7 (38.7)                      ; 2.2 (2.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 46 (46)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Add_Round_Constants:add                 ; Add_Round_Constants ; work         ;
-;          |Gamma:gamma|                    ; 639.7 (0.0)          ; 639.7 (0.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 640 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma                             ; Gamma               ; work         ;
+; |Anubis_2                                 ; 2649.0 (458.0)       ; 2547.5 (332.8)                   ; 44.0 (17.3)                                       ; 145.5 (142.6)                    ; 0.0 (0.0)            ; 2827 (276)          ; 524 (524)                 ; 0 (0)         ; 0                 ; 0     ; 0          ; 4    ; 256          ; |Anubis_2                                                                         ; Anubis_2            ; work         ;
+;    |Fi:fi|                                ; 719.0 (0.0)          ; 723.7 (0.0)                      ; 4.8 (0.0)                                         ; 0.2 (0.0)                        ; 0.0 (0.0)            ; 788 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi                                                                   ; Fi                  ; work         ;
+;       |Gamma:gamma|                       ; 640.2 (0.0)          ; 640.0 (0.0)                      ; 0.0 (0.0)                                         ; 0.2 (0.0)                        ; 0.0 (0.0)            ; 640 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma                                                       ; Gamma               ; work         ;
+;          |Sbox:sboxes[0].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[0].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[10].s16|            ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[10].s16                                   ; Sbox                ; work         ;
+;          |Sbox:sboxes[11].s16|            ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[11].s16                                   ; Sbox                ; work         ;
+;          |Sbox:sboxes[12].s16|            ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[12].s16                                   ; Sbox                ; work         ;
+;          |Sbox:sboxes[13].s16|            ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[13].s16                                   ; Sbox                ; work         ;
+;          |Sbox:sboxes[14].s16|            ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[14].s16                                   ; Sbox                ; work         ;
+;          |Sbox:sboxes[15].s16|            ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[15].s16                                   ; Sbox                ; work         ;
+;          |Sbox:sboxes[1].s16|             ; 40.2 (40.2)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.2 (0.2)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[1].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[2].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[2].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[3].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[3].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[4].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[4].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[5].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[5].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[6].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[6].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[7].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[7].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[8].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[8].s16                                    ; Sbox                ; work         ;
+;          |Sbox:sboxes[9].s16|             ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Gamma:gamma|Sbox:sboxes[9].s16                                    ; Sbox                ; work         ;
+;       |Omega:omega|                       ; 78.8 (78.8)          ; 83.7 (83.7)                      ; 4.8 (4.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 148 (148)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Fi:fi|Omega:omega                                                       ; Omega               ; work         ;
+;    |Gamma:sub|                            ; 598.3 (0.0)          ; 597.3 (0.0)                      ; 0.0 (0.0)                                         ; 1.0 (0.0)                        ; 0.0 (0.0)            ; 640 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub                                                               ; Gamma               ; work         ;
+;       |Sbox:sboxes[0].s16|                ; 37.4 (37.4)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[0].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[10].s16|               ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[10].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[11].s16|               ; 37.4 (37.4)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[11].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[12].s16|               ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[12].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[13].s16|               ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[13].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[14].s16|               ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[14].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[15].s16|               ; 37.5 (37.5)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[15].s16                                           ; Sbox                ; work         ;
+;       |Sbox:sboxes[1].s16|                ; 37.4 (37.4)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[1].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[2].s16|                ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[2].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[3].s16|                ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[3].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[4].s16|                ; 37.6 (37.6)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.3 (0.3)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[4].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[5].s16|                ; 37.5 (37.5)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.2 (0.2)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[5].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[6].s16|                ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[6].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[7].s16|                ; 37.3 (37.3)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[7].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[8].s16|                ; 37.5 (37.5)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.2 (0.2)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[8].s16                                            ; Sbox                ; work         ;
+;       |Sbox:sboxes[9].s16|                ; 37.4 (37.4)          ; 37.3 (37.3)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Gamma:sub|Sbox:sboxes[9].s16                                            ; Sbox                ; work         ;
+;    |Key_Schedule:key_update|              ; 780.0 (45.6)         ; 795.0 (57.0)                     ; 15.4 (11.4)                                       ; 0.4 (0.0)                        ; 0.0 (0.0)            ; 955 (129)           ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update                                                 ; Key_Schedule        ; work         ;
+;       |Psi:psi|                           ; 718.6 (0.0)          ; 722.2 (0.0)                      ; 4.0 (0.0)                                         ; 0.4 (0.0)                        ; 0.0 (0.0)            ; 794 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi                                         ; Psi                 ; work         ;
+;          |Add_Round_Constants:add|        ; 17.2 (17.2)          ; 17.2 (17.2)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 36 (36)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Add_Round_Constants:add                 ; Add_Round_Constants ; work         ;
+;          |Gamma:gamma|                    ; 640.4 (0.0)          ; 640.0 (0.0)                      ; 0.0 (0.0)                                         ; 0.4 (0.0)                        ; 0.0 (0.0)            ; 640 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma                             ; Gamma               ; work         ;
 ;             |Sbox:sboxes[0].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[0].s16          ; Sbox                ; work         ;
 ;             |Sbox:sboxes[10].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[10].s16         ; Sbox                ; work         ;
 ;             |Sbox:sboxes[11].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[11].s16         ; Sbox                ; work         ;
 ;             |Sbox:sboxes[12].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[12].s16         ; Sbox                ; work         ;
 ;             |Sbox:sboxes[13].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[13].s16         ; Sbox                ; work         ;
-;             |Sbox:sboxes[14].s16|         ; 39.7 (39.7)          ; 39.7 (39.7)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[14].s16         ; Sbox                ; work         ;
+;             |Sbox:sboxes[14].s16|         ; 40.2 (40.2)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.2 (0.2)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[14].s16         ; Sbox                ; work         ;
 ;             |Sbox:sboxes[15].s16|         ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[15].s16         ; Sbox                ; work         ;
 ;             |Sbox:sboxes[1].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[1].s16          ; Sbox                ; work         ;
 ;             |Sbox:sboxes[2].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[2].s16          ; Sbox                ; work         ;
@@ -1195,17 +1195,21 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;             |Sbox:sboxes[6].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[6].s16          ; Sbox                ; work         ;
 ;             |Sbox:sboxes[7].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[7].s16          ; Sbox                ; work         ;
 ;             |Sbox:sboxes[8].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[8].s16          ; Sbox                ; work         ;
-;             |Sbox:sboxes[9].s16|          ; 40.0 (40.0)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[9].s16          ; Sbox                ; work         ;
-;          |Theta:theta|                    ; 80.5 (0.0)           ; 97.2 (0.0)                       ; 16.7 (0.0)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 138 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta                             ; Theta               ; work         ;
-;             |Multiplication:thetas[0].m4| ; 27.0 (27.0)          ; 32.5 (32.5)                      ; 5.5 (5.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 45 (45)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[0].m4 ; Multiplication      ; work         ;
-;             |Multiplication:thetas[1].m4| ; 25.2 (25.2)          ; 30.8 (30.8)                      ; 5.7 (5.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 44 (44)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[1].m4 ; Multiplication      ; work         ;
-;             |Multiplication:thetas[2].m4| ; 26.5 (26.5)          ; 31.3 (31.3)                      ; 4.8 (4.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 44 (44)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[2].m4 ; Multiplication      ; work         ;
-;             |Multiplication:thetas[3].m4| ; 1.8 (1.8)            ; 2.5 (2.5)                        ; 0.7 (0.7)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 5 (5)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[3].m4 ; Multiplication      ; work         ;
-;       |Round_Constants:round_constants|   ; 15.3 (0.0)           ; 15.3 (0.0)                       ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 31 (0)              ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants                 ; Round_Constants     ; work         ;
-;          |Sbox:s_1|                       ; 4.0 (4.0)            ; 4.0 (4.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_1        ; Sbox                ; work         ;
-;          |Sbox:s_2|                       ; 3.8 (3.8)            ; 4.0 (4.0)                        ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_2        ; Sbox                ; work         ;
-;          |Sbox:s_3|                       ; 3.3 (3.3)            ; 3.3 (3.3)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 7 (7)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_3        ; Sbox                ; work         ;
+;             |Sbox:sboxes[9].s16|          ; 40.2 (40.2)          ; 40.0 (40.0)                      ; 0.0 (0.0)                                         ; 0.2 (0.2)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Gamma:gamma|Sbox:sboxes[9].s16          ; Sbox                ; work         ;
+;          |Theta:theta|                    ; 60.3 (0.0)           ; 65.0 (0.0)                       ; 4.7 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 118 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta                             ; Theta               ; work         ;
+;             |Multiplication:thetas[0].m4| ; 20.2 (20.2)          ; 20.2 (20.2)                      ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 39 (39)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[0].m4 ; Multiplication      ; work         ;
+;             |Multiplication:thetas[1].m4| ; 20.0 (20.0)          ; 22.8 (22.8)                      ; 2.8 (2.8)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 39 (39)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[1].m4 ; Multiplication      ; work         ;
+;             |Multiplication:thetas[2].m4| ; 19.5 (19.5)          ; 22.0 (22.0)                      ; 2.5 (2.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 40 (40)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Psi:psi|Theta:theta|Multiplication:thetas[2].m4 ; Multiplication      ; work         ;
+;       |Round_Constants:round_constants|   ; 15.8 (0.0)           ; 15.8 (0.0)                       ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 32 (0)              ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants                 ; Round_Constants     ; work         ;
+;          |Sbox:s_1|                       ; 3.8 (3.8)            ; 4.0 (4.0)                        ; 0.2 (0.2)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_1        ; Sbox                ; work         ;
+;          |Sbox:s_2|                       ; 4.0 (4.0)            ; 4.0 (4.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_2        ; Sbox                ; work         ;
+;          |Sbox:s_3|                       ; 3.8 (3.8)            ; 3.8 (3.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_3        ; Sbox                ; work         ;
 ;          |Sbox:s_4|                       ; 4.0 (4.0)            ; 4.0 (4.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (8)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Key_Schedule:key_update|Round_Constants:round_constants|Sbox:s_4        ; Sbox                ; work         ;
+;    |Theta:mix|                            ; 93.7 (0.0)           ; 98.8 (0.0)                       ; 6.4 (0.0)                                         ; 1.3 (0.0)                        ; 0.0 (0.0)            ; 168 (0)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Theta:mix                                                               ; Theta               ; work         ;
+;       |Multiplication:thetas[0].m4|       ; 23.3 (23.3)          ; 25.3 (25.3)                      ; 2.2 (2.2)                                         ; 0.1 (0.1)                        ; 0.0 (0.0)            ; 42 (42)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Theta:mix|Multiplication:thetas[0].m4                                   ; Multiplication      ; work         ;
+;       |Multiplication:thetas[1].m4|       ; 21.6 (21.6)          ; 23.0 (23.0)                      ; 1.7 (1.7)                                         ; 0.3 (0.3)                        ; 0.0 (0.0)            ; 42 (42)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Theta:mix|Multiplication:thetas[1].m4                                   ; Multiplication      ; work         ;
+;       |Multiplication:thetas[2].m4|       ; 23.5 (23.5)          ; 25.8 (25.8)                      ; 2.3 (2.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 42 (42)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Theta:mix|Multiplication:thetas[2].m4                                   ; Multiplication      ; work         ;
+;       |Multiplication:thetas[3].m4|       ; 25.3 (25.3)          ; 24.7 (24.7)                      ; 0.3 (0.3)                                         ; 1.0 (1.0)                        ; 0.0 (0.0)            ; 42 (42)             ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |Anubis_2|Theta:mix|Multiplication:thetas[3].m4                                   ; Multiplication      ; work         ;
 +-------------------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-----------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -1216,8 +1220,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name     ; Pin Type ; D1 ; D3_0 ; D3_1 ; D4 ; D5 ; D5 OE ; D5 OCT ; T11 (Postamble Gating) ; T11 (Postamble Ungating) ;
 +----------+----------+----+------+------+----+----+-------+--------+------------------------+--------------------------+
 ; clk      ; Input    ; -- ; (0)  ; --   ; -- ; -- ; --    ; --     ; --                     ; --                       ;
-; order[0] ; Input    ; -- ; --   ; (0)  ; -- ; -- ; --    ; --     ; --                     ; --                       ;
-; order[1] ; Input    ; -- ; (0)  ; --   ; -- ; -- ; --    ; --     ; --                     ; --                       ;
+; order[1] ; Input    ; -- ; --   ; (0)  ; -- ; -- ; --    ; --     ; --                     ; --                       ;
+; order[0] ; Input    ; -- ; (0)  ; --   ; -- ; -- ; --    ; --     ; --                     ; --                       ;
 ; reset    ; Input    ; -- ; (0)  ; --   ; -- ; -- ; --    ; --     ; --                     ; --                       ;
 +----------+----------+----+------+------+----+----+-------+--------+------------------------+--------------------------+
 
@@ -1228,22 +1232,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout ; Pad To Core Index ; Setting ;
 +---------------------+-------------------+---------+
 ; clk                 ;                   ;         ;
-; order[0]            ;                   ;         ;
-;      - Selector6~0  ; 1                 ; 0       ;
-;      - key[7]~0     ; 1                 ; 0       ;
-;      - Selector5~0  ; 1                 ; 0       ;
 ; order[1]            ;                   ;         ;
+;      - key[62]~0    ; 1                 ; 0       ;
+;      - Selector3~0  ; 1                 ; 0       ;
+;      - Selector2~0  ; 1                 ; 0       ;
+;      - Selector1~0  ; 1                 ; 0       ;
+;      - Selector0~0  ; 1                 ; 0       ;
+;      - Selector6~0  ; 1                 ; 0       ;
+;      - Selector7~1  ; 1                 ; 0       ;
+;      - Selector6~1  ; 1                 ; 0       ;
+;      - Selector6~2  ; 1                 ; 0       ;
+;      - Selector5~0  ; 1                 ; 0       ;
+;      - Selector4~0  ; 1                 ; 0       ;
+; order[0]            ;                   ;         ;
+;      - key[62]~0    ; 0                 ; 0       ;
 ;      - Selector6~0  ; 0                 ; 0       ;
-;      - key[7]~0     ; 0                 ; 0       ;
-;      - Selector3~0  ; 0                 ; 0       ;
-;      - Selector2~0  ; 0                 ; 0       ;
-;      - Selector1~0  ; 0                 ; 0       ;
-;      - Selector0~0  ; 0                 ; 0       ;
-;      - Selector6~1  ; 0                 ; 0       ;
-;      - Selector7~0  ; 0                 ; 0       ;
-;      - Selector6~3  ; 0                 ; 0       ;
 ;      - Selector5~0  ; 0                 ; 0       ;
-;      - Selector4~0  ; 0                 ; 0       ;
 ; reset               ;                   ;         ;
 ;      - state~14     ; 0                 ; 0       ;
 ;      - state~15     ; 0                 ; 0       ;
@@ -1257,11 +1261,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------+---------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; Name          ; Location            ; Fan-Out ; Usage        ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +---------------+---------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
-; Selector6~0   ; LABCELL_X17_Y17_N24 ; 129     ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; clk           ; PIN_W24             ; 396     ; Clock        ; yes    ; Global Clock         ; GCLK10           ; --                        ;
-; key[7]~0      ; LABCELL_X17_Y17_N54 ; 128     ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; state.encrypt ; FF_X18_Y21_N29      ; 266     ; Sync. load   ; no     ; --                   ; --               ; --                        ;
-; state.result  ; FF_X17_Y17_N23      ; 132     ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; LessThan0~0   ; LABCELL_X55_Y12_N33 ; 131     ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; Selector6~0   ; LABCELL_X56_Y9_N48  ; 129     ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; clk           ; PIN_W24             ; 524     ; Clock        ; yes    ; Global Clock         ; GCLK10           ; --                        ;
+; key[62]~0     ; LABCELL_X56_Y9_N42  ; 128     ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; state.encrypt ; FF_X53_Y11_N41      ; 265     ; Sync. load   ; no     ; --                   ; --               ; --                        ;
+; state.result  ; FF_X53_Y11_N38      ; 132     ; Clock enable ; no     ; --                   ; --               ; --                        ;
 +---------------+---------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1270,7 +1275,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------+----------------------+------------------+---------------------------+
 ; Name ; Location ; Fan-Out ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------+----------+---------+----------------------+------------------+---------------------------+
-; clk  ; PIN_W24  ; 396     ; Global Clock         ; GCLK10           ; --                        ;
+; clk  ; PIN_W24  ; 524     ; Global Clock         ; GCLK10           ; --                        ;
 +------+----------+---------+----------------------+------------------+---------------------------+
 
 
@@ -1279,14 +1284,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------+-------------------------+
 ; Routing Resource Type                       ; Usage                   ;
 +---------------------------------------------+-------------------------+
-; Block interconnects                         ; 6,257 / 289,320 ( 2 % ) ;
-; C12 interconnects                           ; 102 / 13,420 ( < 1 % )  ;
-; C2 interconnects                            ; 2,120 / 119,108 ( 2 % ) ;
-; C4 interconnects                            ; 1,114 / 56,300 ( 2 % )  ;
+; Block interconnects                         ; 6,548 / 289,320 ( 2 % ) ;
+; C12 interconnects                           ; 146 / 13,420 ( 1 % )    ;
+; C2 interconnects                            ; 2,243 / 119,108 ( 2 % ) ;
+; C4 interconnects                            ; 1,195 / 56,300 ( 2 % )  ;
 ; DQS bus muxes                               ; 0 / 25 ( 0 % )          ;
 ; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )          ;
 ; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )          ;
-; Direct links                                ; 300 / 289,320 ( < 1 % ) ;
+; Direct links                                ; 351 / 289,320 ( < 1 % ) ;
 ; Global clocks                               ; 1 / 16 ( 6 % )          ;
 ; HPS SDRAM PLL inputs                        ; 0 / 1 ( 0 % )           ;
 ; HPS SDRAM PLL outputs                       ; 0 / 1 ( 0 % )           ;
@@ -1342,12 +1347,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; HPS_INTERFACE_TPIU_TRACE_INPUTs             ; 0 / 2 ( 0 % )           ;
 ; HPS_INTERFACE_TPIU_TRACE_OUTPUTs            ; 0 / 33 ( 0 % )          ;
 ; Horizontal periphery clocks                 ; 0 / 72 ( 0 % )          ;
-; Local interconnects                         ; 1,997 / 84,580 ( 2 % )  ;
+; Local interconnects                         ; 1,915 / 84,580 ( 2 % )  ;
 ; Quadrant clocks                             ; 0 / 66 ( 0 % )          ;
-; R14 interconnects                           ; 173 / 12,676 ( 1 % )    ;
-; R14/C12 interconnect drivers                ; 249 / 20,720 ( 1 % )    ;
-; R3 interconnects                            ; 2,422 / 130,992 ( 2 % ) ;
-; R6 interconnects                            ; 3,621 / 266,960 ( 1 % ) ;
+; R14 interconnects                           ; 242 / 12,676 ( 2 % )    ;
+; R14/C12 interconnect drivers                ; 350 / 20,720 ( 2 % )    ;
+; R3 interconnects                            ; 2,815 / 130,992 ( 2 % ) ;
+; R6 interconnects                            ; 3,857 / 266,960 ( 1 % ) ;
 ; Spine clocks                                ; 4 / 360 ( 1 % )         ;
 ; Wire stub REs                               ; 0 / 15,858 ( 0 % )      ;
 +---------------------------------------------+-------------------------+
@@ -1412,8 +1417,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Total Inapplicable ; 4            ; 4            ; 4            ; 4            ; 4            ; 0         ; 4            ; 4            ; 0         ; 0         ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ; 4            ;
 ; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; clk                ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; order[0]           ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; order[1]           ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; order[0]           ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; reset              ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 
@@ -1466,7 +1471,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------+----------------------+-------------------+
 ; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
 +-----------------+----------------------+-------------------+
-; clk             ; clk                  ; 8.1               ;
+; clk             ; clk                  ; 8.0               ;
 +-----------------+----------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the TimeQuest Timing Analyzer.
@@ -1477,54 +1482,115 @@ This will disable optimization of problematic paths and expose them for further 
 +---------------------+----------------------+-------------------+
 ; Source Register     ; Destination Register ; Delay Added in ns ;
 +---------------------+----------------------+-------------------+
-; data[7]             ; data_out[6]~reg0     ; 0.833             ;
-; data[2]             ; data_out[6]~reg0     ; 0.801             ;
-; data[4]             ; data_out[6]~reg0     ; 0.735             ;
-; data[1]             ; data_out[6]~reg0     ; 0.735             ;
-; data[6]             ; data_out[6]~reg0     ; 0.735             ;
-; data[0]             ; data_out[6]~reg0     ; 0.735             ;
-; data[82]            ; data_out[84]~reg0    ; 0.663             ;
-; data[84]            ; data_out[84]~reg0    ; 0.663             ;
-; data[86]            ; data_out[84]~reg0    ; 0.663             ;
-; data[83]            ; data_out[84]~reg0    ; 0.663             ;
-; data[80]            ; data_out[84]~reg0    ; 0.663             ;
-; data[87]            ; data_out[84]~reg0    ; 0.663             ;
-; data[3]             ; data_out[6]~reg0     ; 0.650             ;
-; key[6]              ; data_out[6]~reg0     ; 0.490             ;
-; data[81]            ; data_out[84]~reg0    ; 0.467             ;
-; data[85]            ; data_out[84]~reg0    ; 0.467             ;
-; state.encrypt       ; nextstate.encrypt    ; 0.452             ;
-; data[5]             ; data_out[6]~reg0     ; 0.436             ;
-; state.idle          ; nextstate.encrypt    ; 0.432             ;
-; state.load_data     ; nextstate.load_data  ; 0.331             ;
-; key[8]              ; data[8]              ; 0.319             ;
-; round_counter[0]    ; round_counter[1]     ; 0.313             ;
-; round_counter[2]    ; round_counter[3]     ; 0.307             ;
-; state.result        ; nextstate.encrypt    ; 0.292             ;
-; order[1]            ; nextstate.encrypt    ; 0.292             ;
-; round_counter[3]    ; round_counter[2]     ; 0.276             ;
-; nextstate.idle      ; state.idle           ; 0.274             ;
-; nextstate.result    ; state.result         ; 0.253             ;
-; nextstate.load_data ; state.load_data      ; 0.253             ;
-; nextstate.encrypt   ; state.encrypt        ; 0.251             ;
-; key[25]             ; data[25]             ; 0.226             ;
-; key[31]             ; data[31]             ; 0.174             ;
-; key[1]              ; data[1]              ; 0.149             ;
-; key[4]              ; data[4]              ; 0.111             ;
-; key[26]             ; data[26]             ; 0.099             ;
-; key[15]             ; data_out[15]~reg0    ; 0.066             ;
-; key[3]              ; data[3]              ; 0.059             ;
-; key[74]             ; data[74]             ; 0.038             ;
-; key[7]              ; data_out[7]~reg0     ; 0.034             ;
+; state.encrypt       ; nextstate.result     ; 0.335             ;
+; round_counter[0]    ; round_counter[1]     ; 0.316             ;
+; tmp[125]            ; data_out[125]~reg0   ; 0.315             ;
+; state.result        ; nextstate.result     ; 0.301             ;
+; state.load_data     ; nextstate.idle       ; 0.293             ;
+; tmp[19]             ; data_out[19]~reg0    ; 0.290             ;
+; tmp[66]             ; data_out[66]~reg0    ; 0.281             ;
+; tmp[62]             ; data_out[62]~reg0    ; 0.272             ;
+; nextstate.load_data ; state.load_data      ; 0.271             ;
+; round_counter[3]    ; round_counter[2]     ; 0.270             ;
+; key[122]            ; tmp[127]             ; 0.269             ;
+; tmp[7]              ; data_out[7]~reg0     ; 0.268             ;
+; nextstate.result    ; state.result         ; 0.263             ;
+; nextstate.idle      ; state.idle           ; 0.249             ;
+; nextstate.encrypt   ; state.encrypt        ; 0.249             ;
+; state.idle          ; nextstate.load_data  ; 0.247             ;
+; key[120]            ; tmp[127]             ; 0.241             ;
+; tmp[124]            ; data_out[124]~reg0   ; 0.234             ;
+; tmp[121]            ; data_out[121]~reg0   ; 0.230             ;
+; key[98]             ; tmp[103]             ; 0.220             ;
+; tmp[104]            ; data_out[104]~reg0   ; 0.203             ;
+; key[58]             ; data_out[118]~reg0   ; 0.190             ;
+; key[123]            ; tmp[127]             ; 0.181             ;
+; key[124]            ; tmp[127]             ; 0.181             ;
+; key[125]            ; tmp[127]             ; 0.181             ;
+; key[126]            ; tmp[127]             ; 0.181             ;
+; tmp[67]             ; data_out[67]~reg0    ; 0.168             ;
+; key[121]            ; tmp[127]             ; 0.139             ;
+; key[127]            ; tmp[127]             ; 0.139             ;
+; tmp[83]             ; data_out[83]~reg0    ; 0.135             ;
+; tmp[39]             ; data_out[39]~reg0    ; 0.129             ;
+; tmp[38]             ; data_out[38]~reg0    ; 0.120             ;
+; tmp[18]             ; data_out[18]~reg0    ; 0.118             ;
+; tmp[28]             ; data_out[28]~reg0    ; 0.111             ;
+; tmp[24]             ; data_out[24]~reg0    ; 0.105             ;
+; tmp[69]             ; data_out[69]~reg0    ; 0.093             ;
+; key[106]            ; data_out[118]~reg0   ; 0.086             ;
+; key[0]              ; data_out[118]~reg0   ; 0.086             ;
+; key[56]             ; data_out[118]~reg0   ; 0.086             ;
+; key[2]              ; data_out[118]~reg0   ; 0.086             ;
+; key[4]              ; data_out[118]~reg0   ; 0.086             ;
+; key[5]              ; data_out[118]~reg0   ; 0.086             ;
+; key[105]            ; data_out[118]~reg0   ; 0.086             ;
+; key[108]            ; data_out[118]~reg0   ; 0.086             ;
+; key[104]            ; data_out[118]~reg0   ; 0.086             ;
+; key[59]             ; data_out[118]~reg0   ; 0.086             ;
+; key[107]            ; data_out[118]~reg0   ; 0.086             ;
+; key[60]             ; data_out[118]~reg0   ; 0.086             ;
+; key[87]             ; data_out[118]~reg0   ; 0.086             ;
+; key[82]             ; data_out[118]~reg0   ; 0.086             ;
+; key[7]              ; data_out[118]~reg0   ; 0.086             ;
+; key[57]             ; data_out[118]~reg0   ; 0.086             ;
+; key[84]             ; data_out[118]~reg0   ; 0.086             ;
+; key[63]             ; data_out[118]~reg0   ; 0.086             ;
+; key[83]             ; data_out[118]~reg0   ; 0.086             ;
+; key[109]            ; data_out[118]~reg0   ; 0.086             ;
+; key[62]             ; data_out[118]~reg0   ; 0.086             ;
+; key[81]             ; data_out[118]~reg0   ; 0.086             ;
+; key[86]             ; data_out[118]~reg0   ; 0.086             ;
+; key[3]              ; data_out[118]~reg0   ; 0.086             ;
+; key[1]              ; data_out[118]~reg0   ; 0.086             ;
+; key[111]            ; data_out[118]~reg0   ; 0.086             ;
+; key[61]             ; data_out[118]~reg0   ; 0.086             ;
+; key[85]             ; data_out[118]~reg0   ; 0.086             ;
+; key[80]             ; data_out[118]~reg0   ; 0.086             ;
+; key[110]            ; data_out[118]~reg0   ; 0.086             ;
+; key[6]              ; data_out[118]~reg0   ; 0.086             ;
+; round_counter[2]    ; data_out[118]~reg0   ; 0.086             ;
+; round_counter[1]    ; data_out[118]~reg0   ; 0.086             ;
+; tmp[21]             ; data_out[21]~reg0    ; 0.079             ;
+; tmp[35]             ; data_out[35]~reg0    ; 0.077             ;
+; key[47]             ; key[117]             ; 0.065             ;
+; key[42]             ; key[117]             ; 0.065             ;
+; key[18]             ; key[117]             ; 0.065             ;
+; key[66]             ; key[117]             ; 0.065             ;
+; key[17]             ; key[117]             ; 0.065             ;
+; key[68]             ; key[117]             ; 0.065             ;
+; key[65]             ; key[117]             ; 0.065             ;
+; key[16]             ; key[117]             ; 0.065             ;
+; key[40]             ; key[117]             ; 0.065             ;
+; key[64]             ; key[117]             ; 0.065             ;
+; key[20]             ; key[117]             ; 0.065             ;
+; key[21]             ; key[117]             ; 0.065             ;
+; key[44]             ; key[117]             ; 0.065             ;
+; key[22]             ; key[117]             ; 0.065             ;
+; key[23]             ; key[117]             ; 0.065             ;
+; key[69]             ; key[117]             ; 0.065             ;
+; key[41]             ; key[117]             ; 0.065             ;
+; key[19]             ; key[117]             ; 0.065             ;
+; key[46]             ; key[117]             ; 0.065             ;
+; key[117]            ; key[117]             ; 0.065             ;
+; key[67]             ; key[117]             ; 0.065             ;
+; key[45]             ; key[117]             ; 0.065             ;
+; key[71]             ; key[117]             ; 0.065             ;
+; key[43]             ; key[117]             ; 0.065             ;
+; key[70]             ; key[117]             ; 0.065             ;
+; tmp[90]             ; data_out[90]~reg0    ; 0.042             ;
+; tmp[37]             ; data_out[37]~reg0    ; 0.038             ;
+; tmp[68]             ; data_out[68]~reg0    ; 0.034             ;
+; tmp[40]             ; data_out[40]~reg0    ; 0.026             ;
 +---------------------+----------------------+-------------------+
-Note: This table only shows the top 39 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 100 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (119006): Selected device 5CSEMA6U23C6 for design "Anubis"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -1534,7 +1600,7 @@ Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Ass
 Critical Warning (169085): No exact pin location assignment(s) for 4 pins of 4 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
 Info (184020): Starting Fitter periphery placement operations
 Info (11191): Automatically promoted 1 clock (1 global)
-    Info (11162): clk~inputCLKENA0 with 396 fanout uses global clock CLKCTRL_G10
+    Info (11162): clk~inputCLKENA0 with 524 fanout uses global clock CLKCTRL_G10
 Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
 Info (176233): Starting register packing
 Info (176235): Finished register packing
@@ -1547,33 +1613,33 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in TimeQue
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:52
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:13
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:10
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:06
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 1% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 20% of the available device resources in the region that extends from location X11_Y11 to location X21_Y22
+    Info (170196): Router estimated peak interconnect usage is 27% of the available device resources in the region that extends from location X56_Y11 to location X66_Y22
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:51
-Info (11888): Total time spent on timing analysis during the Fitter is 7.49 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:52
+Info (11888): Total time spent on timing analysis during the Fitter is 5.52 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:15
-Info (144001): Generated suppressed messages file C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/output_files/Anubis.fit.smsg
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:11
+Info (144001): Generated suppressed messages file C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/output_files/Anubis.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 2085 megabytes
-    Info: Processing ended: Wed Jan 16 19:58:36 2019
-    Info: Elapsed time: 00:03:54
-    Info: Total CPU time (on all processors): 00:07:23
+    Info: Peak virtual memory: 6579 megabytes
+    Info: Processing ended: Tue Feb 19 13:13:24 2019
+    Info: Elapsed time: 00:02:23
+    Info: Total CPU time (on all processors): 00:04:57
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/output_files/Anubis.fit.smsg.
+The suppressed messages can be found in C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/output_files/Anubis.fit.smsg.
 
 

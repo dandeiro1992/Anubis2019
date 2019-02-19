@@ -21,14 +21,16 @@ wire [127 : 0] tau_o; 						  // input from Shift_Rows
 wire [127 : 0] theta_i;                       // input to Mix_Columns
 wire [127 : 0] theta_o;                       // output from Mix_Columns
 wire [127 : 0] key_update_output;           // output from key schedule algorithm
-
-
+wire [127 : 0] key_update_output_tmp;           // output from key schedule algorithm
+reg [127 : 0] tmp;  
 //used modules
 Gamma sub(.data_i(gamma_i),.data_o(gamma_o));
 Tau shift (.data_in(gamma_o),.data_out(tau_o));
 Theta mix(.data_in(tau_o),.data_out(theta_o));
 
-Key_Schedule key_update(.data_in(round_key),.round_counter(round_counter),.data_out(key_update_output));
+Fi fi (.data_in(key_update_output_tmp),.data_out(key_update_output));
+
+Key_Schedule key_update(.data_in(round_key),.round_counter(round_counter),.data_out(key_update_output_tmp));
 
 
 assign gamma_i=data^key_update_output;
@@ -43,6 +45,15 @@ if(reset)
 else
 	state<=nextstate;
 end
+
+always@(posedge clk)
+begin
+if(round_counter<4'hc)
+begin
+	tmp<=tau_o;
+end
+end
+
 
 always@(posedge clk)
 begin
@@ -84,7 +95,7 @@ begin
 //				end
 //				else
 //				begin
-				key<=key_update_output;
+				key<=key_update_output_tmp;
 				data<=theta_o;//^key_update_output;
 				round_counter<=round_counter+4'h1;
 				nextstate<=encrypt;
@@ -96,7 +107,7 @@ begin
 			end
 		end	
 	result:
-		data_out<=tau_o^key_update_output;//^round_key;
+		data_out<=tmp^key_update_output;//^round_key;
 	default:
 		nextstate<=idle;
 	endcase

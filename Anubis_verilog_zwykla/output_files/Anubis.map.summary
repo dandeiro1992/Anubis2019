@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Wed Jan 16 19:54:41 2019
+Analysis & Synthesis Status : Successful - Tue Feb 19 13:10:59 2019
 Quartus Prime Version : 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 Revision Name : Anubis
 Top-level Entity Name : Anubis_2
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 396
+Total registers : 524
 Total pins : 4
 Total virtual pins : 256
 Total block memory bits : 0

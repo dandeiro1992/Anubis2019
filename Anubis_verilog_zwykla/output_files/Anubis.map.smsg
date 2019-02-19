@@ -1,2 +1,2 @@
-Warning (10268): Verilog HDL information at Anubis.v(48): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 48
-Warning (10268): Verilog HDL information at Anubis_2.v(47): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Desktop/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 47
+Warning (10268): Verilog HDL information at Anubis.v(48): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Anubis.v Line: 48
+Warning (10268): Verilog HDL information at Anubis_2.v(58): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_zwykla/Anubis_2.v Line: 58
