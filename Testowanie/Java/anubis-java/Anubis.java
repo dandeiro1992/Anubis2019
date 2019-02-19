@@ -367,7 +367,8 @@ public final class Anubis {
 			roundKeyEnc[r][1] = K1;
 			roundKeyEnc[r][2] = K2;
 			roundKeyEnc[r][3] = K3;
-
+					System.out.print("K0"+String.format("0x%08X", K0)+"K1"+String.format("0x%08X", K1)+"K2"+String.format("0x%08X", K2)+"K3"+String.format("0x%08X", K3));
+				System.out.println("");
 			/*
 			 * compute kappa^{r+1} from kappa^r:
 			 */
@@ -403,6 +404,13 @@ public final class Anubis {
 					T2[T4[(v >>>  8) & 0xff] & 0xff] ^
 					T3[T4[(v       ) & 0xff] & 0xff];
 			}
+		}
+		
+		for(int m=0;m<13;m++)
+		{
+			for(int g=0;g<4;g++)
+				System.out.print(String.format("0x%08X", roundKeyEnc[m][g])+"   ");
+			System.out.println("");
 		}
 	} // keySetup
 
@@ -543,7 +551,7 @@ public final class Anubis {
 
 		System.out.println("Anubis test vectors");
 		System.out.println("--------------------------------------------------");
-		for (int N = 4; N <= 10; N++) {
+		for (int N = 4; N <=4 ; N++) {
 			/*
 			 * test vectors for 32N-bit keys:
 			*/
@@ -578,7 +586,7 @@ public final class Anubis {
 			}
 			*/
 			System.out.println("Null block under all keys with a single bit set:");
-			for (int k = 0; k < 32*N; k++) {
+			for (int k = 0; k < 2*N; k++) {
 				// set the k-th bit:
 				key[k/8] |= (byte)(0x80 >>> (k%8));
 				System.out.print("\tKEY: " + display(key));
