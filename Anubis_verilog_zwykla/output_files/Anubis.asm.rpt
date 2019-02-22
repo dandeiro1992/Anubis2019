@@ -1,5 +1,5 @@
 Assembler report for Anubis
-Tue Feb 19 13:13:38 2019
+Thu Feb 21 16:09:42 2019
 Quartus Prime Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Feb 19 13:13:38 2019 ;
+; Assembler Status      ; Successful - Thu Feb 21 16:09:42 2019 ;
 ; Revision Name         ; Anubis                                ;
 ; Top-level Entity Name ; Anubis_2                              ;
 ; Family                ; Cyclone V                             ;
@@ -68,8 +68,8 @@ agreement for further details.
 ; Option         ; Setting                                                                                            ;
 +----------------+----------------------------------------------------------------------------------------------------+
 ; Device         ; 5CSEMA6U23C6                                                                                       ;
-; JTAG usercode  ; 0x01026FA6                                                                                         ;
-; Checksum       ; 0x01026FA6                                                                                         ;
+; JTAG usercode  ; 0x01030277                                                                                         ;
+; Checksum       ; 0x01030277                                                                                         ;
 +----------------+----------------------------------------------------------------------------------------------------+
 
 
@@ -79,14 +79,14 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 16.1.0 Build 196 10/24/2016 SJ Lite Edition
-    Info: Processing started: Tue Feb 19 13:13:25 2019
+    Info: Processing started: Thu Feb 21 16:09:28 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Anubis -c Anubis
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4870 megabytes
-    Info: Processing ended: Tue Feb 19 13:13:38 2019
-    Info: Elapsed time: 00:00:13
+    Info: Peak virtual memory: 4873 megabytes
+    Info: Processing ended: Thu Feb 21 16:09:42 2019
+    Info: Elapsed time: 00:00:14
     Info: Total CPU time (on all processors): 00:00:11
 
 
