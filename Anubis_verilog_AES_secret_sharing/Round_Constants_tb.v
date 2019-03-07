@@ -1,0 +1,39 @@
+`timescale 1ns / 1ps
+module Round_Constants_tb;
+   reg [3:0] wejscie;
+   wire [127:0] wyjscie; 
+
+Round_Constants RC (.data_out(wyjscie),.round_counter(wejscie));    
+
+initial 
+begin
+wejscie[3:0]=4'h1;
+#10
+wejscie[3:0]=4'h2;
+#10
+wejscie[3:0]=4'h3;
+#10
+wejscie[3:0]=4'h4;
+#10
+wejscie[3:0]=4'h5;
+#10
+wejscie[3:0]=4'h6;
+#10
+wejscie[3:0]=4'h7;
+#10
+wejscie[3:0]=4'h8;
+#10
+wejscie[3:0]=4'h9;
+#10
+wejscie[3:0]=4'ha;
+#10
+wejscie[3:0]=4'hb;
+#10
+wejscie[3:0]=4'hc;
+#10
+wejscie[3:0]=4'hd;
+#10
+wejscie[3:0]=4'he;
+
+end
+endmodule
