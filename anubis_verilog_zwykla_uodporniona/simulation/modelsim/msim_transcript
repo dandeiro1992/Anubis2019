@@ -1,0 +1,1545 @@
+# Reading D:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Anubis_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:09 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 11:48:09 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:09 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 11:48:09 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:09 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 11:48:09 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:09 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 11:48:09 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:09 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 11:48:09 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 11:48:10 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona {C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:48:10 on Mar 17,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona" C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 11:48:11 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:05 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 11:50:05 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:05 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 11:50:05 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:05 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 11:50:05 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:05 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 11:50:06 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:06 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 11:50:07 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:07 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 11:50:08 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:08 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 11:50:08 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:08 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 11:50:08 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:08 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 11:50:08 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:50:08 on Mar 17,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 11:50:08 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Anubis_tb
+# vsim work.Anubis_tb 
+# Start time: 11:50:34 on Mar 17,2019
+# Loading work.Anubis_tb
+# Loading work.Anubis_2
+# Loading work.Gamma
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+add wave -position end  sim:/Anubis_tb/clk
+add wave -position end  sim:/Anubis_tb/enc/data
+add wave -position end  sim:/Anubis_tb/enc/data_1
+add wave -position end  sim:/Anubis_tb/enc/data_out
+add wave -position end  sim:/Anubis_tb/enc/data_out_1
+add wave -position end  sim:/Anubis_tb/enc/key
+add wave -position end  sim:/Anubis_tb/enc/key_1
+add wave -position end  sim:/Anubis_tb/enc/nextstate
+add wave -position end  sim:/Anubis_tb/enc/nextstate_1
+add wave -position end  sim:/Anubis_tb/enc/state
+add wave -position end  sim:/Anubis_tb/enc/state_1
+add wave -position end  sim:/Anubis_tb/enc/round_counter
+add wave -position end  sim:/Anubis_tb/enc/round_counter_1
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/symulacja_1/list.lst
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:43 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 11:58:43 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:43 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 11:58:43 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:43 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:44 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 11:58:44 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:45 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 11:58:45 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:46 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 11:58:46 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:46 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 11:58:46 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:46 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 11:58:46 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:46 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 11:58:46 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:46 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 11:58:46 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:46 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 11:58:46 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:48 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 11:58:48 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:48 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 11:58:49 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:49 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:50 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 11:58:50 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:58:51 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 11:58:51 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.Anubis_tb
+# Loading work.Anubis_2
+# Loading work.Gamma
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Too few port connections. Expected 6, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/symulacja_2/list.lst
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:15 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 13:01:15 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:15 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 13:01:16 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:16 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 13:01:17 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:17 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:18 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 13:01:18 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:21 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 13:01:21 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:21 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 13:01:21 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:21 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 13:01:21 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:22 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 13:01:22 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 13:01:23 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:23 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 13:01:24 on Mar 17,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:24 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 13:01:24 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:24 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 13:01:24 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:24 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 13:01:24 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:24 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 13:01:24 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:24 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 13:01:24 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:01:58 on Mar 17,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 13:01:58 on Mar 17,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.Anubis_tb
+# Loading work.Anubis_2
+# Loading work.Gamma
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Too few port connections. Expected 8, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/Sbox.v
+add wave -position 3  sim:/Anubis_tb/enc/data_1_n
+add wave -position 2  sim:/Anubis_tb/enc/data_n
+add wave -position 7  sim:/Anubis_tb/enc/data_out_1_n
+add wave -position 6  sim:/Anubis_tb/enc/data_out_n
+add wave -position 11  sim:/Anubis_tb/enc/key_1_n
+add wave -position 10  sim:/Anubis_tb/enc/key_n
+add wave -position 15  sim:/Anubis_tb/enc/nextstate_1_n
+add wave -position 14  sim:/Anubis_tb/enc/nextstate_n
+add wave -position end  sim:/Anubis_tb/enc/round_counter_1_n
+add wave -position 20  sim:/Anubis_tb/enc/round_counter_n
+add wave -position 19  sim:/Anubis_tb/enc/state_1_n
+add wave -position 18  sim:/Anubis_tb/enc/state_n
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/anubis_verilog_zwykla_uodporniona/symulacja_3/list.lst
+# End time: 14:41:07 on Mar 17,2019, Elapsed time: 2:50:33
+# Errors: 0, Warnings: 32
