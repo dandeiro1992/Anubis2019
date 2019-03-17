@@ -12,568 +12,568 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Theta.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:00 on Mar 06,2019
+# Start time: 15:56:04 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Theta.v 
 # -- Compiling module Theta
 # 
 # Top level modules:
 # 	Theta
-# End time: 15:07:00 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:04 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Tau.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:00 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Tau.v 
 # -- Compiling module Tau
 # 
 # Top level modules:
 # 	Tau
-# End time: 15:07:00 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:05 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:00 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v 
 # -- Compiling module Sbox
 # 
 # Top level modules:
 # 	Sbox
-# End time: 15:07:00 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:05 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Pi.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:00 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Pi.v 
 # -- Compiling module Pi
 # 
 # Top level modules:
 # 	Pi
-# End time: 15:07:00 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:05 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Multiplication.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:00 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Multiplication.v 
 # -- Compiling module Multiplication
 # 
 # Top level modules:
 # 	Multiplication
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:01
+# End time: 15:56:05 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma.v 
 # -- Compiling module Gamma
 # 
 # Top level modules:
 # 	Gamma
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:05 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega.v 
 # -- Compiling module Omega
 # 
 # Top level modules:
 # 	Omega
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:05 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:05 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v 
 # -- Compiling module Round_Constants
 # 
 # Top level modules:
 # 	Round_Constants
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:06 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:06 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule.v 
 # -- Compiling module Key_Schedule
 # 
 # Top level modules:
 # 	Key_Schedule
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:06 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:06 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi.v 
 # -- Compiling module Fi
 # 
 # Top level modules:
 # 	Fi
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:06 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Constants.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:06 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Constants.v 
 # -- Compiling module Add_Round_Constants
 # 
 # Top level modules:
 # 	Add_Round_Constants
-# End time: 15:07:01 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:06 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Psi.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:01 on Mar 06,2019
+# Start time: 15:56:06 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Psi.v 
 # -- Compiling module Psi
 # 
 # Top level modules:
 # 	Psi
-# End time: 15:07:02 on Mar 06,2019, Elapsed time: 0:00:01
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:02 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_2.v 
 # -- Compiling module Anubis_2
 # 
 # Top level modules:
 # 	Anubis_2
-# End time: 15:07:02 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xsquare.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xsquare.v 
 # -- Compiling module XSQUARE
 # 
 # Top level modules:
 # 	XSQUARE
-# End time: 15:07:04 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xlambda.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xlambda.v 
 # -- Compiling module XLAMBDA
 # 
 # Top level modules:
 # 	XLAMBDA
-# End time: 15:07:04 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xx.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xx.v 
 # -- Compiling module XX
 # 
 # Top level modules:
 # 	XX
-# End time: 15:07:04 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/X.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/X.v 
 # -- Compiling module X
 # 
 # Top level modules:
 # 	X
-# End time: 15:07:04 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xfi.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xfi.v 
 # -- Compiling module XFI
 # 
 # Top level modules:
 # 	XFI
-# End time: 15:07:04 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:07 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Isomorphism.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:07 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Isomorphism.v 
 # -- Compiling module ISOMORPHISM
 # 
 # Top level modules:
 # 	ISOMORPHISM
-# End time: 15:07:04 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:08 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Affine.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:04 on Mar 06,2019
+# Start time: 15:56:08 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Affine.v 
 # -- Compiling module AFFINE
 # 
 # Top level modules:
 # 	AFFINE
-# End time: 15:07:05 on Mar 06,2019, Elapsed time: 0:00:01
+# End time: 15:56:08 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Reverse_isomorphism.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:05 on Mar 06,2019
+# Start time: 15:56:08 on Mar 17,2019
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Reverse_isomorphism.v 
 # -- Compiling module REVERSE_ISOMORPHISM
 # 
 # Top level modules:
 # 	REVERSE_ISOMORPHISM
-# End time: 15:07:05 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:08 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Constants.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:10 on Mar 06,2019
+# Start time: 15:56:21 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Constants.v 
 # -- Compiling module Add_Round_Constants
 # 
 # Top level modules:
 # 	Add_Round_Constants
-# End time: 15:07:10 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:21 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Key.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:10 on Mar 06,2019
+# Start time: 15:56:21 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Key.v 
 # -- Compiling module Add_Round_Key
 # 
 # Top level modules:
 # 	Add_Round_Key
-# End time: 15:07:10 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:21 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Affine.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:10 on Mar 06,2019
+# Start time: 15:56:22 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Affine.v 
 # -- Compiling module AFFINE
 # 
 # Top level modules:
 # 	AFFINE
-# End time: 15:07:10 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:22 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:10 on Mar 06,2019
+# Start time: 15:56:22 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis.v 
 # -- Compiling module Anubis
 # 
 # Top level modules:
 # 	Anubis
-# End time: 15:07:10 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:22 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_2.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:10 on Mar 06,2019
+# Start time: 15:56:22 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_2.v 
 # -- Compiling module Anubis_2
 # 
 # Top level modules:
 # 	Anubis_2
-# End time: 15:07:11 on Mar 06,2019, Elapsed time: 0:00:01
+# End time: 15:56:22 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:11 on Mar 06,2019
+# Start time: 15:56:22 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_tb.v 
 # -- Compiling module Anubis_tb
 # 
 # Top level modules:
 # 	Anubis_tb
-# End time: 15:07:11 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:22 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:11 on Mar 06,2019
+# Start time: 15:56:22 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi.v 
 # -- Compiling module Fi
 # 
 # Top level modules:
 # 	Fi
-# End time: 15:07:11 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:23 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:11 on Mar 06,2019
+# Start time: 15:56:23 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi_tb.v 
 # -- Compiling module Fi_tb
 # 
 # Top level modules:
 # 	Fi_tb
-# End time: 15:07:12 on Mar 06,2019, Elapsed time: 0:00:01
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:12 on Mar 06,2019
+# Start time: 15:56:24 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma.v 
 # -- Compiling module Gamma
 # 
 # Top level modules:
 # 	Gamma
-# End time: 15:07:12 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:12 on Mar 06,2019
+# Start time: 15:56:24 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma_tb.v 
 # -- Compiling module Gamma_tb
 # 
 # Top level modules:
 # 	Gamma_tb
-# End time: 15:07:12 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Inversive_linear_map.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:24 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Inversive_linear_map.v 
 # -- Compiling module INVERSIVE_LINEAR_MAP
 # 
 # Top level modules:
 # 	INVERSIVE_LINEAR_MAP
-# End time: 15:07:13 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Isomorphism.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:24 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Isomorphism.v 
 # -- Compiling module ISOMORPHISM
 # 
 # Top level modules:
 # 	ISOMORPHISM
-# End time: 15:07:13 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:24 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule.v 
 # -- Compiling module Key_Schedule
 # 
 # Top level modules:
 # 	Key_Schedule
-# End time: 15:07:13 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:24 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule_tb.v 
 # -- Compiling module Key_Schedule_tb
 # 
 # Top level modules:
 # 	Key_Schedule_tb
-# End time: 15:07:13 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:24 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Linear_map.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:25 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Linear_map.v 
 # -- Compiling module LINEAR_MAP
 # 
 # Top level modules:
 # 	LINEAR_MAP
-# End time: 15:07:13 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:25 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Multiplication.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:25 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Multiplication.v 
 # -- Compiling module Multiplication
 # 
 # Top level modules:
 # 	Multiplication
-# End time: 15:07:13 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:25 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Multiplication_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:13 on Mar 06,2019
+# Start time: 15:56:25 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Multiplication_tb.v 
 # -- Compiling module Multiplication_tb
 # 
 # Top level modules:
 # 	Multiplication_tb
-# End time: 15:07:14 on Mar 06,2019, Elapsed time: 0:00:01
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:14 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega.v 
 # -- Compiling module Omega
 # 
 # Top level modules:
 # 	Omega
-# End time: 15:07:14 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:14 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega_tb.v 
 # -- Compiling module Omega_tb
 # 
 # Top level modules:
 # 	Omega_tb
-# End time: 15:07:14 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Pi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:14 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Pi.v 
 # -- Compiling module Pi
 # 
 # Top level modules:
 # 	Pi
-# End time: 15:07:14 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Pi_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:14 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Pi_tb.v 
 # -- Compiling module Pi_tb
 # 
 # Top level modules:
 # 	Pi_tb
-# End time: 15:07:14 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Psi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Psi.v 
 # -- Compiling module Psi
 # 
 # Top level modules:
 # 	Psi
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Reverse_isomorphism.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Reverse_isomorphism.v 
 # -- Compiling module REVERSE_ISOMORPHISM
 # 
 # Top level modules:
 # 	REVERSE_ISOMORPHISM
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v 
 # -- Compiling module Round_Constants
 # 
 # Top level modules:
 # 	Round_Constants
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:26 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:26 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants_tb.v 
 # -- Compiling module Round_Constants_tb
 # 
 # Top level modules:
 # 	Round_Constants_tb
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v 
 # -- Compiling module Sbox
 # 
 # Top level modules:
 # 	Sbox
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Tau.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Tau.v 
 # -- Compiling module Tau
 # 
 # Top level modules:
 # 	Tau
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Tau_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Tau_tb.v 
 # -- Compiling module Tau_tb
 # 
 # Top level modules:
 # 	Tau_tb
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Theta.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Theta.v 
 # -- Compiling module Theta
 # 
 # Top level modules:
 # 	Theta
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Theta_tb.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:15 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Theta_tb.v 
 # -- Compiling module Theta_tb
 # 
 # Top level modules:
 # 	Theta_tb
-# End time: 15:07:15 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/X.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:16 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/X.v 
 # -- Compiling module X
 # 
 # Top level modules:
 # 	X
-# End time: 15:07:16 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xfi.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:16 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xfi.v 
 # -- Compiling module XFI
 # 
 # Top level modules:
 # 	XFI
-# End time: 15:07:16 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xlambda.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:16 on Mar 06,2019
+# Start time: 15:56:27 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xlambda.v 
 # -- Compiling module XLAMBDA
 # 
 # Top level modules:
 # 	XLAMBDA
-# End time: 15:07:16 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:27 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xsquare.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:16 on Mar 06,2019
+# Start time: 15:56:28 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xsquare.v 
 # -- Compiling module XSQUARE
 # 
 # Top level modules:
 # 	XSQUARE
-# End time: 15:07:16 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:28 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xx.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:07:16 on Mar 06,2019
+# Start time: 15:56:28 on Mar 17,2019
 # vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xx.v 
 # -- Compiling module XX
 # 
 # Top level modules:
 # 	XX
-# End time: 15:07:16 on Mar 06,2019, Elapsed time: 0:00:00
+# End time: 15:56:28 on Mar 17,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.Anubis_tb
 # vsim work.Anubis_tb 
-# Start time: 15:07:28 on Mar 06,2019
+# Start time: 15:56:40 on Mar 17,2019
 # Loading work.Anubis_tb
 # Loading work.Anubis_2
 # Loading work.Gamma
@@ -610,57 +610,6 @@ add wave -position end  sim:/Anubis_tb/data_o
 add wave -position end  sim:/Anubis_tb/order
 add wave -position end  sim:/Anubis_tb/reset
 run
-add wave -position end  sim:/Anubis_tb/enc/data
-add wave -position end  sim:/Anubis_tb/enc/key_update_output
-add wave -position end  sim:/Anubis_tb/enc/key_update_output_tmp
-add wave -position end  sim:/Anubis_tb/enc/round_key
-restart
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
 run
-add wave -position end  sim:/Anubis_tb/enc/round_counter
-restart
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-run
-add wave -position 6  sim:/Anubis_tb/enc/tmp
-restart
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-run
-add wave -position end  sim:/Anubis_tb/enc/gamma_i
-add wave -position end  sim:/Anubis_tb/enc/gamma_o
-add wave -position end  sim:/Anubis_tb/enc/tau_i
-add wave -position end  sim:/Anubis_tb/enc/tau_o
-add wave -position end  sim:/Anubis_tb/enc/theta_i
-add wave -position end  sim:/Anubis_tb/enc/theta_o
-restart
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v(2).
-#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v
-run
-# End time: 20:44:31 on Mar 06,2019, Elapsed time: 5:37:03
-# Errors: 0, Warnings: 20
+# End time: 15:58:23 on Mar 17,2019, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 4

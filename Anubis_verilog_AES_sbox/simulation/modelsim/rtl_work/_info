@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/simulation/modelsim
 vAdd_Round_Constants
-Z1 !s110 1551881230
+Z1 !s110 1552834581
 !i10b 1
 !s100 i^X3@2c=WEFb_liHQMEiQ0
 IFD1zD0=5KP@^>]kZAhY3B1
@@ -23,7 +23,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1551881230.000000
+Z5 !s108 1552834581.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Constants.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Add_Round_Constants.v|
 !i113 1
@@ -53,7 +53,7 @@ R6
 R7
 n@add_@round_@key
 vAFFINE
-R1
+Z8 !s110 1552834582
 !i10b 1
 !s100 bG2^Y;WcEDhI>3SWQ?@NU3
 Im4@@=76jmz^z8MXbimzjQ0
@@ -67,7 +67,7 @@ R4
 r1
 !s85 0
 31
-R5
+Z9 !s108 1552834582.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Affine.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Affine.v|
 !i113 1
@@ -75,7 +75,7 @@ R6
 R7
 n@a@f@f@i@n@e
 vAnubis
-R1
+R8
 !i10b 1
 !s100 ^8I=aTi:LQz^o8OS_E5z62
 ILa[]WJgni]4JR9j]i<]lK0
@@ -89,7 +89,7 @@ R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis.v|
 !i113 1
@@ -97,7 +97,7 @@ R6
 R7
 n@anubis
 vAnubis_2
-R1
+R8
 !i10b 1
 !s100 k6jI6Uzh>hoPaiN?ELLR<3
 I1eU?ddS]d;`3nH?DJLkk60
@@ -111,7 +111,7 @@ R4
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_2.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_2.v|
 !i113 1
@@ -119,7 +119,7 @@ R6
 R7
 n@anubis_2
 vAnubis_tb
-Z8 !s110 1551881231
+R8
 !i10b 1
 !s100 D9=Wb:X5z^FURiBF5:7`o2
 Il@dh>c4;e5Vm75ba]5QmQ0
@@ -133,7 +133,7 @@ R4
 r1
 !s85 0
 31
-Z9 !s108 1551881231.000000
+R9
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Anubis_tb.v|
 !i113 1
@@ -163,7 +163,7 @@ R6
 R7
 n@fi
 vFi_tb
-R8
+!s110 1552834583
 !i10b 1
 !s100 2CZ;6Vz?E?S>2S:4:0Mz70
 I[IO2P=En9;aS`B?R4iRe60
@@ -177,7 +177,7 @@ R4
 r1
 !s85 0
 31
-R9
+!s108 1552834583.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Fi_tb.v|
 !i113 1
@@ -185,7 +185,7 @@ R6
 R7
 n@fi_tb
 vGamma
-Z10 !s110 1551881232
+Z10 !s110 1552834584
 !i10b 1
 !s100 8b^k@YU?bSR>CDWN1CSQ82
 IEXSH:;L@G@o>A1oImeZXz3
@@ -199,7 +199,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1551881232.000000
+Z11 !s108 1552834584.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Gamma.v|
 !i113 1
@@ -229,7 +229,7 @@ R6
 R7
 n@gamma_tb
 vINVERSIVE_LINEAR_MAP
-Z12 !s110 1551881233
+R10
 !i10b 1
 !s100 1^4IV[jliBFmj>Cc4DOEM2
 IQN@O4[ll28QRzOdd;JHa^0
@@ -243,7 +243,7 @@ R4
 r1
 !s85 0
 31
-Z13 !s108 1551881233.000000
+R11
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Inversive_linear_map.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Inversive_linear_map.v|
 !i113 1
@@ -251,7 +251,7 @@ R6
 R7
 n@i@n@v@e@r@s@i@v@e_@l@i@n@e@a@r_@m@a@p
 vISOMORPHISM
-R12
+R10
 !i10b 1
 !s100 X:V<GT0JoKRVWRlVADU533
 IF4zMTT;10BfK?HEM21fMD3
@@ -265,7 +265,7 @@ R4
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Isomorphism.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Isomorphism.v|
 !i113 1
@@ -273,7 +273,7 @@ R6
 R7
 n@i@s@o@m@o@r@p@h@i@s@m
 vKey_Schedule
-R12
+R10
 !i10b 1
 !s100 gbRQ^K]JSh[_@W:cg0?Sd3
 IBKJGB8lJAP0m=WGbW]EN63
@@ -287,7 +287,7 @@ R4
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule.v|
 !i113 1
@@ -295,7 +295,7 @@ R6
 R7
 n@key_@schedule
 vKey_Schedule_tb
-R12
+R10
 !i10b 1
 !s100 UWIe7GH0NQ5T0G]B]>Y>`2
 I?Rjfgl3?^F7<m@iCh2<ZF0
@@ -309,7 +309,7 @@ R4
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Key_Schedule_tb.v|
 !i113 1
@@ -317,7 +317,7 @@ R6
 R7
 n@key_@schedule_tb
 vLINEAR_MAP
-R12
+Z12 !s110 1552834585
 !i10b 1
 !s100 iVjGWlZB9NSX[1jUoYPWG1
 I9d9UdcVz6oKHNm]@TL7ER1
@@ -331,7 +331,7 @@ R4
 r1
 !s85 0
 31
-R13
+Z13 !s108 1552834585.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Linear_map.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Linear_map.v|
 !i113 1
@@ -383,7 +383,7 @@ R6
 R7
 n@multiplication_tb
 vOmega
-Z14 !s110 1551881234
+Z14 !s110 1552834586
 !i10b 1
 !s100 g6Une`Yo5QV0W>6OJYKZi3
 I6KjDDWEmc?mBEzZ>cPU9;3
@@ -397,7 +397,7 @@ R4
 r1
 !s85 0
 31
-Z15 !s108 1551881234.000000
+Z15 !s108 1552834586.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Omega.v|
 !i113 1
@@ -471,7 +471,7 @@ R6
 R7
 n@pi_tb
 vPsi
-Z16 !s110 1551881235
+R14
 !i10b 1
 !s100 L1c_TW=c5X>C[dki70PE60
 IVI:@10>LacQ6OEQ1BJ=@52
@@ -485,7 +485,7 @@ R4
 r1
 !s85 0
 31
-Z17 !s108 1551881235.000000
+R15
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Psi.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Psi.v|
 !i113 1
@@ -493,7 +493,7 @@ R6
 R7
 n@psi
 vREVERSE_ISOMORPHISM
-R16
+R14
 !i10b 1
 !s100 J:n>i[TH]85D[59N8gY1k1
 Iegd`]:QLLXnheLZeHW>o`1
@@ -507,7 +507,7 @@ R4
 r1
 !s85 0
 31
-R17
+R15
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Reverse_isomorphism.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Reverse_isomorphism.v|
 !i113 1
@@ -515,7 +515,7 @@ R6
 R7
 n@r@e@v@e@r@s@e_@i@s@o@m@o@r@p@h@i@s@m
 vRound_Constants
-R16
+R14
 !i10b 1
 !s100 S0XE<TZ6T6mackKChP1>e2
 IdPBNfHz`n=5Vb7QJbXdO@0
@@ -529,7 +529,7 @@ R4
 r1
 !s85 0
 31
-R17
+R15
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants.v|
 !i113 1
@@ -537,7 +537,7 @@ R6
 R7
 n@round_@constants
 vRound_Constants_tb
-R16
+Z16 !s110 1552834587
 !i10b 1
 !s100 ^V[3OD_5NV7M>DUdgW=SC3
 I[EgFUC>0g5CT=b`gLJTV80
@@ -551,7 +551,7 @@ R4
 r1
 !s85 0
 31
-R17
+R15
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants_tb.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Round_Constants_tb.v|
 !i113 1
@@ -573,7 +573,7 @@ R4
 r1
 !s85 0
 31
-R17
+Z17 !s108 1552834587.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Sbox.v|
 !i113 1
@@ -669,7 +669,7 @@ R6
 R7
 n@theta_tb
 vX
-Z18 !s110 1551881236
+R16
 !i10b 1
 !s100 kZLeE[maH9SfXZejcmI1c1
 IhoU;]hV_9KHLKg=?Lg8gH0
@@ -683,7 +683,7 @@ R4
 r1
 !s85 0
 31
-Z19 !s108 1551881236.000000
+R17
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/X.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/X.v|
 !i113 1
@@ -691,7 +691,7 @@ R6
 R7
 n@x
 vXFI
-R18
+R16
 !i10b 1
 !s100 6B_CFVk7gj?zJTbn^IS@T2
 IGR0=V:[S@eBAHnjlGI3D80
@@ -705,7 +705,7 @@ R4
 r1
 !s85 0
 31
-R19
+R17
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xfi.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xfi.v|
 !i113 1
@@ -713,7 +713,7 @@ R6
 R7
 n@x@f@i
 vXLAMBDA
-R18
+R16
 !i10b 1
 !s100 G6^mP=XGU0@<Ym^N]fA?V1
 IXOzz]L6Kz^1XbIZ_?D7e`0
@@ -727,7 +727,7 @@ R4
 r1
 !s85 0
 31
-R19
+R17
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xlambda.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xlambda.v|
 !i113 1
@@ -735,7 +735,7 @@ R6
 R7
 n@x@l@a@m@b@d@a
 vXSQUARE
-R18
+Z18 !s110 1552834588
 !i10b 1
 !s100 D3L<NUz;>j8Q8LF`P3l0h0
 I`m;g2bKz`cF;o>aG[TU3Q1
@@ -749,7 +749,7 @@ R4
 r1
 !s85 0
 31
-R19
+Z19 !s108 1552834588.000000
 !s107 C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xsquare.v|
 !s90 -reportprogress|30|-work|work|C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_sbox/Xsquare.v|
 !i113 1
