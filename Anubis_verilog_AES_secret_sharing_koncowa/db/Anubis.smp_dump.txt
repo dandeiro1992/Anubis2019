@@ -1,0 +1,28 @@
+
+State Machine - |Anubis_2|state
+Name state.result state.encrypt state.load_data state.idle 
+state.idle 0 0 0 0 
+state.load_data 0 0 1 1 
+state.encrypt 0 1 0 1 
+state.result 1 0 0 1 
+
+State Machine - |Anubis_2|state_1
+Name state_1.result_1 state_1.encrypt_1 state_1.load_data_1 state_1.idle_1 
+state_1.idle_1 0 0 0 0 
+state_1.load_data_1 0 0 1 1 
+state_1.encrypt_1 0 1 0 1 
+state_1.result_1 1 0 0 1 
+
+State Machine - |Anubis_2|nextstate_1
+Name nextstate_1.result_1 nextstate_1.encrypt_1 nextstate_1.load_data_1 nextstate_1.idle_1 
+nextstate_1.idle_1 0 0 0 0 
+nextstate_1.load_data_1 0 0 1 1 
+nextstate_1.encrypt_1 0 1 0 1 
+nextstate_1.result_1 1 0 0 1 
+
+State Machine - |Anubis_2|nextstate
+Name nextstate.result nextstate.encrypt nextstate.load_data nextstate.idle 
+nextstate.idle 0 0 0 0 
+nextstate.load_data 0 0 1 1 
+nextstate.encrypt 0 1 0 1 
+nextstate.result 1 0 0 1 

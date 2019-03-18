@@ -1,0 +1,3067 @@
+# Reading D:/intelFPGA_lite/16.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Anubis_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/intelFPGA_lite/16.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:54 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 09:57:54 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:56 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 09:57:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:56 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 09:57:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:56 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 09:57:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:56 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 09:57:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:57 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 09:57:58 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:59 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 09:57:59 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:57:59 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 09:58:00 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:00 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 09:58:01 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:01 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 09:58:01 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa {C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:01 on Mar 18,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa" C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 09:58:01 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 09:58:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 09:58:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 09:58:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 09:58:28 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 09:58:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 09:58:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:28 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 09:58:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:28 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 09:58:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:28 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 09:58:29 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:29 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 09:58:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v 
+# -- Compiling module INVERSIVE_LINEAR_MAP
+# 
+# Top level modules:
+# 	INVERSIVE_LINEAR_MAP
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v 
+# -- Compiling module LINEAR_MAP
+# 
+# Top level modules:
+# 	LINEAR_MAP
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:30 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 09:58:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:31 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 09:58:31 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:31 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 09:58:31 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:31 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v 
+# -- Compiling module my_encrypt_tb
+# 
+# Top level modules:
+# 	my_encrypt_tb
+# End time: 09:58:31 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:32 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 09:58:32 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:32 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 09:58:33 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:33 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:58:34 on Mar 18,2019
+# vlog -reportprogress 30 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 09:58:34 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.Anubis_tb
+# vsim work.Anubis_tb 
+# Start time: 09:58:41 on Mar 18,2019
+# Loading work.Anubis_tb
+# Loading work.Anubis_2
+# Loading work.Gamma_Secured
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.ISOMORPHISM
+# Loading work.XSQUARE
+# Loading work.XLAMBDA
+# Loading work.XX
+# Loading work.X
+# Loading work.XFI
+# Loading work.REVERSE_ISOMORPHISM
+# Loading work.AFFINE
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Masked_SubBytes
+# Loading work.Inverter
+# Loading work.AFFINE_1
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Too few port connections. Expected 14, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'random_2'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'random_22'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'random_4'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'random_44'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'random_6'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'random'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v(8): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /Anubis_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+add wave -position end  sim:/Anubis_tb/enc/data_1
+add wave -position end  sim:/Anubis_tb/enc/data_1_1
+add wave -position end  sim:/Anubis_tb/enc/data_1_1_n
+add wave -position end  sim:/Anubis_tb/enc/data_1_n
+add wave -position end  sim:/Anubis_tb/enc/data_2
+add wave -position end  sim:/Anubis_tb/enc/data_2_1
+add wave -position end  sim:/Anubis_tb/enc/data_2_1_n
+add wave -position end  sim:/Anubis_tb/enc/data_2_n
+add wave -position end  sim:/Anubis_tb/enc/data_3
+add wave -position end  sim:/Anubis_tb/enc/data_3_1
+add wave -position end  sim:/Anubis_tb/enc/data_3_1_n
+add wave -position end  sim:/Anubis_tb/enc/data_3_n
+add wave -position 0  sim:/Anubis_tb/enc/clk
+add wave -position end  sim:/Anubis_tb/enc/data_out
+add wave -position end  sim:/Anubis_tb/enc/data_out_1
+add wave -position end  sim:/Anubis_tb/enc/data_out_1_n
+add wave -position end  sim:/Anubis_tb/enc/data_out_n
+add wave -position end  sim:/Anubis_tb/enc/key
+add wave -position end  sim:/Anubis_tb/enc/key_1
+add wave -position end  sim:/Anubis_tb/enc/key_1_n
+add wave -position end  sim:/Anubis_tb/enc/key_n
+add wave -position end  sim:/Anubis_tb/enc/nextstate
+add wave -position end  sim:/Anubis_tb/enc/nextstate_1
+add wave -position end  sim:/Anubis_tb/enc/nextstate_1_n
+add wave -position end  sim:/Anubis_tb/enc/nextstate_n
+add wave -position end  sim:/Anubis_tb/enc/round_counter
+add wave -position end  sim:/Anubis_tb/enc/round_counter_1
+add wave -position end  sim:/Anubis_tb/enc/round_counter_1_n
+add wave -position end  sim:/Anubis_tb/enc/round_counter_n
+add wave -position end  sim:/Anubis_tb/enc/state
+add wave -position end  sim:/Anubis_tb/enc/state_1
+add wave -position end  sim:/Anubis_tb/enc/state_1_n
+add wave -position end  sim:/Anubis_tb/enc/state_n
+add wave -position end  sim:/Anubis_tb/enc/tmp
+add wave -position end  sim:/Anubis_tb/enc/tmp_1
+add wave -position end  sim:/Anubis_tb/enc/tmp_1_n
+add wave -position end  sim:/Anubis_tb/enc/tmp_n
+run
+vsim work.my_encrypt_tb
+# End time: 10:00:44 on Mar 18,2019, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 18
+# vsim work.my_encrypt_tb 
+# Start time: 10:00:44 on Mar 18,2019
+# Loading work.my_encrypt_tb
+# Loading work.Anubis_2
+# Loading work.Gamma_Secured
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.ISOMORPHISM
+# Loading work.XSQUARE
+# Loading work.XLAMBDA
+# Loading work.XX
+# Loading work.X
+# Loading work.XFI
+# Loading work.REVERSE_ISOMORPHISM
+# Loading work.AFFINE
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Masked_SubBytes
+# Loading work.Inverter
+# Loading work.AFFINE_1
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Too few port connections. Expected 14, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+add wave -position end  sim:/my_encrypt_tb/enc/clk
+add wave -position end  sim:/my_encrypt_tb/enc/data_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_1_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_1_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_2
+add wave -position end  sim:/my_encrypt_tb/enc/data_2_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_2_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_2_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_3
+add wave -position end  sim:/my_encrypt_tb/enc/data_3_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_3_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_3_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_out
+add wave -position end  sim:/my_encrypt_tb/enc/data_out_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_out_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_out_n
+add wave -position end  sim:/my_encrypt_tb/enc/key
+add wave -position end  sim:/my_encrypt_tb/enc/key_1
+add wave -position end  sim:/my_encrypt_tb/enc/key_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/key_n
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate_1
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate_n
+add wave -position end  sim:/my_encrypt_tb/enc/state
+add wave -position end  sim:/my_encrypt_tb/enc/state_1
+add wave -position end  sim:/my_encrypt_tb/enc/state_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/state_n
+add wave -position end  sim:/my_encrypt_tb/enc/tmp
+add wave -position end  sim:/my_encrypt_tb/enc/tmp_1
+add wave -position end  sim:/my_encrypt_tb/enc/tmp_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/tmp_n
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/symulacja_1/list.lst
+restart
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Too few port connections. Expected 14, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+run
+run
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 10:07:11 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 10:07:11 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 10:07:11 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 10:07:11 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 10:07:11 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 10:07:11 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:11 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v 
+# -- Compiling module INVERSIVE_LINEAR_MAP
+# 
+# Top level modules:
+# 	INVERSIVE_LINEAR_MAP
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:12 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 10:07:12 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v 
+# -- Compiling module LINEAR_MAP
+# 
+# Top level modules:
+# 	LINEAR_MAP
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v 
+# -- Compiling module my_encrypt_tb
+# 
+# Top level modules:
+# 	my_encrypt_tb
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 10:07:13 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:13 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 10:07:14 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:14 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:07:15 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 10:07:15 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.my_encrypt_tb
+# End time: 10:07:56 on Mar 18,2019, Elapsed time: 0:07:12
+# Errors: 0, Warnings: 24
+# vsim work.my_encrypt_tb 
+# Start time: 10:07:56 on Mar 18,2019
+# Loading work.my_encrypt_tb
+# Loading work.Anubis_2
+# Loading work.Gamma_Secured
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.ISOMORPHISM
+# Loading work.XSQUARE
+# Loading work.XLAMBDA
+# Loading work.XX
+# Loading work.X
+# Loading work.XFI
+# Loading work.REVERSE_ISOMORPHISM
+# Loading work.AFFINE
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Masked_SubBytes
+# Loading work.Inverter
+# Loading work.AFFINE_1
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Too few port connections. Expected 14, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+add wave -position end  sim:/my_encrypt_tb/clk
+add wave -position end  sim:/my_encrypt_tb/enc/data_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_1_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_1_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_2
+add wave -position end  sim:/my_encrypt_tb/enc/data_2_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_2_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_2_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_3
+add wave -position end  sim:/my_encrypt_tb/enc/data_3_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_3_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_3_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_out
+add wave -position end  sim:/my_encrypt_tb/enc/data_out_1
+add wave -position end  sim:/my_encrypt_tb/enc/data_out_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/data_out_n
+add wave -position end  sim:/my_encrypt_tb/enc/key
+add wave -position end  sim:/my_encrypt_tb/enc/key_1
+add wave -position end  sim:/my_encrypt_tb/enc/key_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/key_n
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate_1
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/nextstate_n
+add wave -position end  sim:/my_encrypt_tb/enc/round_counter
+add wave -position end  sim:/my_encrypt_tb/enc/round_counter_1
+add wave -position end  sim:/my_encrypt_tb/enc/round_counter_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/round_counter_n
+add wave -position end  sim:/my_encrypt_tb/enc/state
+add wave -position end  sim:/my_encrypt_tb/enc/state_1
+add wave -position end  sim:/my_encrypt_tb/enc/state_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/state_n
+add wave -position end  sim:/my_encrypt_tb/enc/tmp
+add wave -position end  sim:/my_encrypt_tb/enc/tmp_1
+add wave -position end  sim:/my_encrypt_tb/enc/tmp_1_n
+add wave -position end  sim:/my_encrypt_tb/enc/tmp_n
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/symulacja_2/list.lst
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:02 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 10:12:02 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:02 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 10:12:02 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:02 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:03 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 10:12:03 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v 
+# -- Compiling module INVERSIVE_LINEAR_MAP
+# 
+# Top level modules:
+# 	INVERSIVE_LINEAR_MAP
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v 
+# -- Compiling module LINEAR_MAP
+# 
+# Top level modules:
+# 	LINEAR_MAP
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 10:12:04 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:04 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v 
+# -- Compiling module my_encrypt_tb
+# 
+# Top level modules:
+# 	my_encrypt_tb
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 10:12:05 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:05 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 10:12:06 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:06 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 10:12:07 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:07 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 10:12:07 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:07 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 10:12:07 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 10:12:25 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 10:12:25 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 10:12:25 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 10:12:25 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 10:12:25 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 10:12:25 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:25 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v 
+# -- Compiling module INVERSIVE_LINEAR_MAP
+# 
+# Top level modules:
+# 	INVERSIVE_LINEAR_MAP
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 10:12:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v 
+# -- Compiling module LINEAR_MAP
+# 
+# Top level modules:
+# 	LINEAR_MAP
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v 
+# -- Compiling module my_encrypt_tb
+# 
+# Top level modules:
+# 	my_encrypt_tb
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 10:12:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 10:12:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:12:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 10:12:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.my_encrypt_tb
+# Loading work.Anubis_2
+# Loading work.Gamma_Secured
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.ISOMORPHISM
+# Loading work.XSQUARE
+# Loading work.XLAMBDA
+# Loading work.XX
+# Loading work.X
+# Loading work.XFI
+# Loading work.REVERSE_ISOMORPHISM
+# Loading work.AFFINE
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Masked_SubBytes
+# Loading work.Inverter
+# Loading work.AFFINE_1
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Too few port connections. Expected 14, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/symulacja_3/list.lst
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 10:16:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 10:16:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 10:16:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 10:16:26 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:26 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 10:16:27 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:27 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v 
+# -- Compiling module INVERSIVE_LINEAR_MAP
+# 
+# Top level modules:
+# 	INVERSIVE_LINEAR_MAP
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v 
+# -- Compiling module LINEAR_MAP
+# 
+# Top level modules:
+# 	LINEAR_MAP
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 10:16:28 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:28 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v 
+# -- Compiling module my_encrypt_tb
+# 
+# Top level modules:
+# 	my_encrypt_tb
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 10:16:29 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:29 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 10:16:30 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:30 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 10:16:31 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:31 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 10:16:31 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:31 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 10:16:31 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:54 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Constants.v 
+# -- Compiling module Add_Round_Constants
+# 
+# Top level modules:
+# 	Add_Round_Constants
+# End time: 10:16:54 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:54 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Add_Round_Key.v 
+# -- Compiling module Add_Round_Key
+# 
+# Top level modules:
+# 	Add_Round_Key
+# End time: 10:16:54 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:54 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine.v 
+# -- Compiling module AFFINE
+# 
+# Top level modules:
+# 	AFFINE
+# End time: 10:16:54 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:54 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Affine_1.v 
+# -- Compiling module AFFINE_1
+# 
+# Top level modules:
+# 	AFFINE_1
+# End time: 10:16:54 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:54 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v 
+# -- Compiling module Anubis
+# 
+# Top level modules:
+# 	Anubis
+# End time: 10:16:54 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:54 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v 
+# -- Compiling module Anubis_2
+# 
+# Top level modules:
+# 	Anubis_2
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_tb.v 
+# -- Compiling module Anubis_tb
+# 
+# Top level modules:
+# 	Anubis_tb
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi.v 
+# -- Compiling module Fi
+# 
+# Top level modules:
+# 	Fi
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Fi_tb.v 
+# -- Compiling module Fi_tb
+# 
+# Top level modules:
+# 	Fi_tb
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma.v 
+# -- Compiling module Gamma
+# 
+# Top level modules:
+# 	Gamma
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_Secured.v 
+# -- Compiling module Gamma_Secured
+# 
+# Top level modules:
+# 	Gamma_Secured
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Gamma_tb.v 
+# -- Compiling module Gamma_tb
+# 
+# Top level modules:
+# 	Gamma_tb
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inversive_linear_map.v 
+# -- Compiling module INVERSIVE_LINEAR_MAP
+# 
+# Top level modules:
+# 	INVERSIVE_LINEAR_MAP
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:55 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Inverter.v 
+# -- Compiling module Inverter
+# 
+# Top level modules:
+# 	Inverter
+# End time: 10:16:55 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Isomorphism.v 
+# -- Compiling module ISOMORPHISM
+# 
+# Top level modules:
+# 	ISOMORPHISM
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule.v 
+# -- Compiling module Key_Schedule
+# 
+# Top level modules:
+# 	Key_Schedule
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Key_Schedule_tb.v 
+# -- Compiling module Key_Schedule_tb
+# 
+# Top level modules:
+# 	Key_Schedule_tb
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Linear_map.v 
+# -- Compiling module LINEAR_MAP
+# 
+# Top level modules:
+# 	LINEAR_MAP
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Masked_SubBytes.v 
+# -- Compiling module Masked_SubBytes
+# 
+# Top level modules:
+# 	Masked_SubBytes
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication.v 
+# -- Compiling module Multiplication
+# 
+# Top level modules:
+# 	Multiplication
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Multiplication_tb.v 
+# -- Compiling module Multiplication_tb
+# 
+# Top level modules:
+# 	Multiplication_tb
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v 
+# -- Compiling module my_encrypt_tb
+# 
+# Top level modules:
+# 	my_encrypt_tb
+# End time: 10:16:56 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:56 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega.v 
+# -- Compiling module Omega
+# 
+# Top level modules:
+# 	Omega
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Omega_tb.v 
+# -- Compiling module Omega_tb
+# 
+# Top level modules:
+# 	Omega_tb
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi.v 
+# -- Compiling module Pi
+# 
+# Top level modules:
+# 	Pi
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Pi_tb.v 
+# -- Compiling module Pi_tb
+# 
+# Top level modules:
+# 	Pi_tb
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Psi.v 
+# -- Compiling module Psi
+# 
+# Top level modules:
+# 	Psi
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Reverse_isomorphism.v 
+# -- Compiling module REVERSE_ISOMORPHISM
+# 
+# Top level modules:
+# 	REVERSE_ISOMORPHISM
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v 
+# -- Compiling module Round_Constants
+# 
+# Top level modules:
+# 	Round_Constants
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants_tb.v 
+# -- Compiling module Round_Constants_tb
+# 
+# Top level modules:
+# 	Round_Constants_tb
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:57 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v 
+# -- Compiling module Sbox
+# 
+# Top level modules:
+# 	Sbox
+# End time: 10:16:57 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau.v 
+# -- Compiling module Tau
+# 
+# Top level modules:
+# 	Tau
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Tau_tb.v 
+# -- Compiling module Tau_tb
+# 
+# Top level modules:
+# 	Tau_tb
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta.v 
+# -- Compiling module Theta
+# 
+# Top level modules:
+# 	Theta
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Theta_tb.v 
+# -- Compiling module Theta_tb
+# 
+# Top level modules:
+# 	Theta_tb
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/X.v 
+# -- Compiling module X
+# 
+# Top level modules:
+# 	X
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xfi.v 
+# -- Compiling module XFI
+# 
+# Top level modules:
+# 	XFI
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xlambda.v 
+# -- Compiling module XLAMBDA
+# 
+# Top level modules:
+# 	XLAMBDA
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xsquare.v 
+# -- Compiling module XSQUARE
+# 
+# Top level modules:
+# 	XSQUARE
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:16:58 on Mar 18,2019
+# vlog -reportprogress 300 -work work C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Xx.v 
+# -- Compiling module XX
+# 
+# Top level modules:
+# 	XX
+# End time: 10:16:58 on Mar 18,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+restart
+# Loading work.my_encrypt_tb
+# Loading work.Anubis_2
+# Loading work.Gamma_Secured
+# Loading work.Tau
+# Loading work.Theta
+# Loading work.Fi
+# Loading work.Gamma
+# Loading work.Omega
+# Loading work.Key_Schedule
+# Loading work.Round_Constants
+# Loading work.Sbox
+# Loading work.ISOMORPHISM
+# Loading work.XSQUARE
+# Loading work.XLAMBDA
+# Loading work.XX
+# Loading work.X
+# Loading work.XFI
+# Loading work.REVERSE_ISOMORPHISM
+# Loading work.AFFINE
+# Loading work.Psi
+# Loading work.Pi
+# Loading work.Add_Round_Constants
+# Loading work.Masked_SubBytes
+# Loading work.Inverter
+# Loading work.AFFINE_1
+# Loading work.Multiplication
+# ** Warning: (vsim-3017) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Too few port connections. Expected 14, found 11.
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_n'.
+# ** Warning: (vsim-3722) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/my_encrypt_tb.v(14): [TFMPC] - Missing connection for port 'data_out_1_n'.
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(10): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_1 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(11): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_2 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(12): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_3 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+# ** Warning: (vsim-3015) C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Round_Constants.v(13): [PCDPC] - Port size (8) does not match connection size (32) for port 'data_in'. The port definition is at: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /my_encrypt_tb/enc/key_update_1/round_constants/s_4 File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Sbox.v
+run
+run
+run
+write list -window .main_pane.list C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/symulacja_4/list.lst
+# End time: 10:36:16 on Mar 18,2019, Elapsed time: 0:28:20
+# Errors: 0, Warnings: 36

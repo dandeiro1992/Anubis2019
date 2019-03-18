@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at Anubis.v(48): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis.v Line: 48
+Warning (10268): Verilog HDL information at Anubis_2.v(130): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v Line: 130
+Warning (10268): Verilog HDL information at Anubis_2.v(348): always construct contains both blocking and non-blocking assignments File: C:/Users/Damian/Documents/GitHub/Anubis2019/Anubis_verilog_AES_secret_sharing_koncowa/Anubis_2.v Line: 348
