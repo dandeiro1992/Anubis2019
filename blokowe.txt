@@ -1,0 +1,13 @@
+jest funkcją, która odwzorowuje \textit{n-bitowy} blok tekstu jawnego na \textit{n-bitowy} 
+blok szyfrogramu ($n$ nazywamy długością bloku). Może on być rozpatrywany jako prosty szyfr 
+podstawieniowy o dużym rozmiarze znaku. Funkcję parametryzuje $k$-bitowy klucz $K$ przyjmujący 
+wartości z podzbioru $\kappa$ (przestrzeń kluczy) zbiory wszystkich k-bitowych wektorów $V_k$.
+ Zazwyczaj przyjmuje się, że klucz jest wybierany losowo. Stosowanie bloków tekstu jawnego
+ i szyfrogramu o tej samej długości umożliwia uniknięcie rozrostu danych. Aby można było 
+ jednoznacznie odszyfrować dane, funkcja szyfrująca musi być typu jeden-do-jednego 
+ (tj. odwracalna). Dla $n$-bitowych bloków tekstu jawnego i szyfrogramu oraz ustalonego 
+ klucza funkcja szyfrująca jest bijekcją, definiującą permutację $n$-bitowych wektorów. Każdy 
+ klucz potencjalnie określa inną bijekcję. Liczba kluczy wynosi $|\kappa|$, a efektywna długość 
+ klucza $lg|\kappa|$. Odpowiada to długości klucza, jeśli wszystkie $k$-bitowe wektory są 
+ prawidłowymi kluczami ($\kappa=V_k$). Jeśli klucze są jednakowo prawdopodobne i każdy określa
+ inną bijekcję, entropia przestrzeni kluczy również wynosi $lg|\kappa|$.

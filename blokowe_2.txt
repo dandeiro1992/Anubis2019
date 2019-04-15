@@ -1,0 +1,9 @@
+jest przekształceniem odwzorowującym \textit{n-bitowy} tekst jawny w \textit{n-bitowy} odpowiadający mu 
+szyfrogram. Parametr \textit{n} nazywany jest długością bloku. W ogólności, szyfr blokowy można rozpatrywać jako szyfr podstawieniowy 
+o dużym rozmiarze znaku. Przekształcenie jest parametryzowane poprzez $k$ bitowy klucz $K$ wybierany ze zbioru $\kappa$
+przestrzeni kluczy (wszystkich $k$ bitowe wektorów $V_k$). Zazwyczaj przyjmuje się, że klucz jest wybierany losowo.
+Zastosowanie bloków tekstu jawnego i szyfrogramu takiej samej długości, wpływa na brak zwiększenia się zajętości pamięci w stosunku do 
+danych wejściowych. Deszyfrowanie danych jest zapewnione poprzez odpowiedni dobór funkcji szyfrującej. Głównym założeniem jest, żeby funkcja szyfrująca była 
+odwracalna. Dla $n$-bitowych bloków tekstu jawnego i szyfrogramu, przy założeniu, że klucz wybrany jest prawidłowo, funkcja szyfrująca jest bijekcją, opisującą permutacje $n$ bitowych wektorów.
+Dobór innego klucza pozwala na określenie innej bijekcji. Liczba kluczy wynosi $|\kappa|$.
+
